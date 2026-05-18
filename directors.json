@@ -56,6 +56,16 @@
             "a": "Best Picture nom."
           }
         ]
+      },
+      {
+        "y": 2017,
+        "t": "Happy End",
+        "r": 6.6,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
       }
     ]
   },
@@ -1256,6 +1266,17 @@
             "a": "Best Picture nom."
           }
         ]
+      },
+      {
+        "y": 2017,
+        "t": "The Killing of a Sacred Deer",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay"
+          }
+        ]
       }
     ]
   },
@@ -2369,6 +2390,17 @@
           {
             "f": "berlin",
             "a": "Silver Bear Best Director"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Blue Moon",
+        "r": 7,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Silver Bear Grand Jury"
           }
         ]
       }
@@ -3678,6 +3710,16 @@
             "f": "oscar",
             "a": "Best Picture + Director",
             "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2017,
+        "t": "Okja",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "cannes"
           }
         ]
       }
@@ -5793,6 +5835,17 @@
           {
             "f": "cannes",
             "a": "Best Screenplay"
+          }
+        ]
+      },
+      {
+        "y": 2017,
+        "t": "In the Fade",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actress"
           }
         ]
       }
@@ -9213,6 +9266,366 @@
             "f": "sundance",
             "a": "Grand Jury Prize (Documentary)",
             "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Josh Safdie & Benny Safdie",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2017,
+        "t": "Good Time",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Maren Ade",
+    "nat": "🇩🇪 Almanya",
+    "films": [
+      {
+        "y": 2016,
+        "t": "Toni Erdmann",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "FIPRESCI Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Francois Ozon",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2017,
+        "t": "L'Amant Double",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sergey Dvortsevoy",
+    "nat": "🇰🇿 Kazakistan",
+    "films": [
+      {
+        "y": 2018,
+        "t": "Ayka",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actress"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nadine Labaki",
+    "nat": "🇱🇧 Lübnan",
+    "films": [
+      {
+        "y": 2018,
+        "t": "Capernaum",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "David Robert Mitchell",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2018,
+        "t": "Under the Silver Lake",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diao Yinan",
+    "nat": "🇨🇳 Çin",
+    "films": [
+      {
+        "y": 2019,
+        "t": "The Wild Goose Lake",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ciro Guerra",
+    "nat": "🇨🇴 Kolombiya",
+    "films": [
+      {
+        "y": 2019,
+        "t": "Waiting for the Barbarians",
+        "r": 6,
+        "fests": [
+          {
+            "f": "venice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Catherine Breillat",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2023,
+        "t": "Last Summer",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tran Anh Hung",
+    "nat": "🇻🇳/🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2023,
+        "t": "The Pot-au-Feu",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alice Diop",
+    "nat": "🇫🇷/🇸🇳 Fransa",
+    "films": [
+      {
+        "y": 2022,
+        "t": "Saint Omer",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Silver Lion Grand Jury"
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "We",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "berlin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wang Bing",
+    "nat": "🇨🇳 Çin",
+    "films": [
+      {
+        "y": 2023,
+        "t": "Youth (Spring)",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kaouther Ben Hania",
+    "nat": "🇹🇳 Tunus",
+    "films": [
+      {
+        "y": 2023,
+        "t": "Four Daughters",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ramata-Toulaye Sy",
+    "nat": "🇫🇷/🇸🇳 Fransa",
+    "films": [
+      {
+        "y": 2023,
+        "t": "Banel & Adama",
+        "r": 6.5,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Miguel Gomes",
+    "nat": "🇵🇹 Portekiz",
+    "films": [
+      {
+        "y": 2024,
+        "t": "Grand Tour",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gilles Lellouche",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2024,
+        "t": "L'Amour Ouf",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Paul Schrader",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2024,
+        "t": "Oh, Canada",
+        "r": 6.5,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gabriele Mainetti",
+    "nat": "🇮🇹 İtalya",
+    "films": [
+      {
+        "y": 2021,
+        "t": "Freaks Out",
+        "r": 7,
+        "fests": [
+          {
+            "f": "venice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Maggie Gyllenhaal",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2021,
+        "t": "The Lost Daughter",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Best Screenplay"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shaunak Sen",
+    "nat": "🇮🇳 Hindistan",
+    "films": [
+      {
+        "y": 2021,
+        "t": "All That Breathes",
+        "r": 8,
+        "fests": [
+          {
+            "f": "cannes"
+          },
+          {
+            "f": "sundance",
+            "a": "World Cinema Grand Jury",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Joanna Hogg",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2021,
+        "t": "The Souvenir Part II",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "cannes"
           }
         ]
       }
