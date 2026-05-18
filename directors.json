@@ -1,0 +1,6358 @@
+[
+  {
+    "name": "Michael Haneke",
+    "nat": "🇦🇹 Avusturya",
+    "films": [
+      {
+        "y": 2001,
+        "t": "The Piano Teacher",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix + Best Actor/Actress"
+          }
+        ]
+      },
+      {
+        "y": 2005,
+        "t": "Caché",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          }
+        ]
+      },
+      {
+        "y": 2009,
+        "t": "The White Ribbon",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Foreign Film nom."
+          }
+        ]
+      },
+      {
+        "y": 2012,
+        "t": "Amour",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ken Loach",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2002,
+        "t": "Sweet Sixteen",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay"
+          }
+        ]
+      },
+      {
+        "y": 2004,
+        "t": "Ae Fond Kiss",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2006,
+        "t": "The Wind That Shakes the Barley",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2009,
+        "t": "Looking for Eric",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2012,
+        "t": "The Angels' Share",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      },
+      {
+        "y": 2014,
+        "t": "Jimmy's Hall",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2016,
+        "t": "I, Daniel Blake",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2019,
+        "t": "Sorry We Missed You",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "The Old Oak",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dardenne Brothers",
+    "nat": "🇧🇪 Belçika",
+    "films": [
+      {
+        "y": 2002,
+        "t": "The Son",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2005,
+        "t": "L'Enfant",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2008,
+        "t": "Lorna's Silence",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay"
+          }
+        ]
+      },
+      {
+        "y": 2011,
+        "t": "The Kid with a Bike",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          }
+        ]
+      },
+      {
+        "y": 2014,
+        "t": "Two Days, One Night",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2019,
+        "t": "Young Ahmed",
+        "r": 6.6,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "Tori and Lokita",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "70th Anniversary Prize"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Young Mother's Home",
+        "r": 6.5,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Aki Kaurismäki",
+    "nat": "🇫🇮 Finlandiya",
+    "films": [
+      {
+        "y": 2002,
+        "t": "The Man Without a Past",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix + Best Actress"
+          }
+        ]
+      },
+      {
+        "y": 2006,
+        "t": "Lights in the Dusk",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2011,
+        "t": "Le Havre",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2017,
+        "t": "The Other Side of Hope",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "Fallen Leaves",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nuri Bilge Ceylan",
+    "nat": "🇹🇷 Türkiye",
+    "films": [
+      {
+        "y": 2003,
+        "t": "Uzak",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix + Best Actor"
+          }
+        ]
+      },
+      {
+        "y": 2006,
+        "t": "Climates",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "FIPRESCI Prize"
+          }
+        ]
+      },
+      {
+        "y": 2008,
+        "t": "Three Monkeys",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          }
+        ]
+      },
+      {
+        "y": 2011,
+        "t": "Once Upon a Time in Anatolia",
+        "r": 8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          }
+        ]
+      },
+      {
+        "y": 2014,
+        "t": "Winter Sleep",
+        "r": 8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "About Dry Grasses",
+        "r": 8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actress"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hirokazu Kore-eda",
+    "nat": "🇯🇵 Japonya",
+    "films": [
+      {
+        "y": 2004,
+        "t": "Nobody Knows",
+        "r": 8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actor"
+          }
+        ]
+      },
+      {
+        "y": 2013,
+        "t": "Like Father, Like Son",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      },
+      {
+        "y": 2015,
+        "t": "Our Little Sister",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2018,
+        "t": "Shoplifters",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2019,
+        "t": "The Truth",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "Broker",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actor"
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "Monster",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay"
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Sheep in the Box",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Apichatpong W.",
+    "nat": "🇹🇭 Tayland",
+    "films": [
+      {
+        "y": 2004,
+        "t": "Tropical Malady",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      },
+      {
+        "y": 2010,
+        "t": "Uncle Boonmee",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2021,
+        "t": "Memoria",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Paolo Sorrentino",
+    "nat": "🇮🇹 İtalya",
+    "films": [
+      {
+        "y": 2004,
+        "t": "The Consequences of Love",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2008,
+        "t": "Il Divo",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      },
+      {
+        "y": 2015,
+        "t": "Youth",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "Parthenope",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "venice"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "La Grazia",
+        "r": 7,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Best Actor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gus Van Sant",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2003,
+        "t": "Elephant",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2007,
+        "t": "Paranoid Park",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2008,
+        "t": "Milk",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2015,
+        "t": "Sea of Trees",
+        "r": 6.3,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Park Chan-wook",
+    "nat": "🇰🇷 G.Kore",
+    "films": [
+      {
+        "y": 2004,
+        "t": "Oldboy",
+        "r": 8.4,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          }
+        ]
+      },
+      {
+        "y": 2009,
+        "t": "Thirst",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "Decision to Leave",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "No Other Choice",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "Int'l People's Choice",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wong Kar-wai",
+    "nat": "🇭🇰 HK/Çin",
+    "films": [
+      {
+        "y": 2004,
+        "t": "2046",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jia Zhangke",
+    "nat": "🇨🇳 Çin",
+    "films": [
+      {
+        "y": 2006,
+        "t": "Still Life",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2013,
+        "t": "A Touch of Sin",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay"
+          }
+        ]
+      },
+      {
+        "y": 2018,
+        "t": "Ash Is Purest White",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "Caught by the Tides",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cristian Mungiu",
+    "nat": "🇷🇴 Romanya",
+    "films": [
+      {
+        "y": 2007,
+        "t": "4 Months, 3 Weeks, 2 Days",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2012,
+        "t": "Beyond the Hills",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay + Best Actress"
+          }
+        ]
+      },
+      {
+        "y": 2016,
+        "t": "Graduation",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "R.M.N.",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Fjord",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jacques Audiard",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2009,
+        "t": "A Prophet",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          }
+        ]
+      },
+      {
+        "y": 2015,
+        "t": "Dheepan",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "Emilia Pérez",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize + Best Actress"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Andrea Arnold",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2009,
+        "t": "Fish Tank",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      },
+      {
+        "y": 2016,
+        "t": "American Honey",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "Bird",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Abdellatif Kechiche",
+    "nat": "🇫🇷/🇹🇳 Fransa",
+    "films": [
+      {
+        "y": 2007,
+        "t": "The Secret of the Grain",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2010,
+        "t": "Black Venus",
+        "r": 6.5,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2013,
+        "t": "Blue Is the Warmest Color",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrence Malick",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2011,
+        "t": "The Tree of Life",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2019,
+        "t": "A Hidden Life",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Asghar Farhadi",
+    "nat": "🇮🇷 İran",
+    "films": [
+      {
+        "y": 2011,
+        "t": "A Separation",
+        "r": 8.3,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Foreign Film",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2013,
+        "t": "The Past",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actress"
+          }
+        ]
+      },
+      {
+        "y": 2016,
+        "t": "The Salesman",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay + Best Actor"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Foreign Film",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2018,
+        "t": "Everybody Knows",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2021,
+        "t": "A Hero",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Parallel Tales",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Xavier Dolan",
+    "nat": "🇨🇦 Kanada",
+    "films": [
+      {
+        "y": 2009,
+        "t": "I Killed My Mother",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2010,
+        "t": "Heartbeats",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2012,
+        "t": "Laurence Anyways",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actress (UCR)"
+          }
+        ]
+      },
+      {
+        "y": 2014,
+        "t": "Mommy",
+        "r": 8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      },
+      {
+        "y": 2016,
+        "t": "It's Only the End of the World",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Andrey Zvyagintsev",
+    "nat": "🇷🇺 Rusya",
+    "films": [
+      {
+        "y": 2011,
+        "t": "Elena",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Special Jury Prize (UCR)"
+          }
+        ]
+      },
+      {
+        "y": 2014,
+        "t": "Leviathan",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Foreign Film nom."
+          }
+        ]
+      },
+      {
+        "y": 2017,
+        "t": "Loveless",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Foreign Film nom."
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Minotaur",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2003,
+        "t": "The Return",
+        "r": 8,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Yorgos Lanthimos",
+    "nat": "🇬🇷 Yunanistan",
+    "films": [
+      {
+        "y": 2015,
+        "t": "The Lobster",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      },
+      {
+        "y": 2018,
+        "t": "The Favourite",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Grand Jury Prize"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "Poor Things",
+        "r": 8,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "Kinds of Kindness",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Bugonia",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Todd Haynes",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2015,
+        "t": "Carol",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2017,
+        "t": "Wonderstruck",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "László Nemes",
+    "nat": "🇭🇺 Macaristan",
+    "films": [
+      {
+        "y": 2015,
+        "t": "Son of Saul",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Foreign Film",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2018,
+        "t": "Sunset",
+        "r": 6.6,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Moulin",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stéphane Brizé",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2015,
+        "t": "The Measure of a Man",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actor"
+          }
+        ]
+      },
+      {
+        "y": 2018,
+        "t": "At War",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2021,
+        "t": "Another World",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hou Hsiao-hsien",
+    "nat": "🇹🇼 Tayvan",
+    "films": [
+      {
+        "y": 2015,
+        "t": "The Assassin",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nanni Moretti",
+    "nat": "🇮🇹 İtalya",
+    "films": [
+      {
+        "y": 2001,
+        "t": "The Son's Room",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2015,
+        "t": "Mia Madre",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "Il Sol dell'avvenire",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gaspar Noé",
+    "nat": "🇦🇷/🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2015,
+        "t": "Love",
+        "r": 5.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2018,
+        "t": "Climax",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ruben Östlund",
+    "nat": "🇸🇪 İsveç",
+    "films": [
+      {
+        "y": 2017,
+        "t": "The Square",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "Triangle of Sadness",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Robin Campillo",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2017,
+        "t": "BPM (120 BPM)",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ryusuke Hamaguchi",
+    "nat": "🇯🇵 Japonya",
+    "films": [
+      {
+        "y": 2018,
+        "t": "Asako I & II",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2021,
+        "t": "Drive My Car",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Int'l Film",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "All of a Sudden",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Paweł Pawlikowski",
+    "nat": "🇵🇱 Polonya",
+    "films": [
+      {
+        "y": 2018,
+        "t": "Cold War",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Foreign Film nom."
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Fatherland",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jafar Panahi",
+    "nat": "🇮🇷 İran",
+    "films": [
+      {
+        "y": 2018,
+        "t": "3 Faces",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "It Was Just an Accident",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pedro Almodóvar",
+    "nat": "🇪🇸 İspanya",
+    "films": [
+      {
+        "y": 2006,
+        "t": "Volver",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actress"
+          }
+        ]
+      },
+      {
+        "y": 2019,
+        "t": "Pain and Glory",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actor"
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "The Room Next Door",
+        "r": 6.6,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Bitter Christmas",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Justine Triet",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2019,
+        "t": "Sibyl",
+        "r": 6.6,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "Anatomy of a Fall",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kleber M. Filho",
+    "nat": "🇧🇷 Brezilya",
+    "films": [
+      {
+        "y": 2019,
+        "t": "Bacurau",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "The Secret Agent",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Int'l Film nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nadav Lapid",
+    "nat": "🇮🇱 İsrail",
+    "films": [
+      {
+        "y": 2019,
+        "t": "Synonyms",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2021,
+        "t": "Ahed's Knee",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Julia Ducournau",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2021,
+        "t": "Titane",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Alpha",
+        "r": 6.2,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Leos Carax",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2021,
+        "t": "Annette",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wes Anderson",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2021,
+        "t": "The French Dispatch",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "The Phoenician Scheme",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2014,
+        "t": "The Grand Budapest Hotel",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          },
+          {
+            "f": "berlin",
+            "a": "Silver Bear Grand Jury"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Joachim Trier",
+    "nat": "🇳🇴 Norveç",
+    "films": [
+      {
+        "y": 2021,
+        "t": "The Worst Person in the World",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actress"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Sentimental Value",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Int'l Film nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lukas Dhont",
+    "nat": "🇧🇪 Belçika",
+    "films": [
+      {
+        "y": 2022,
+        "t": "Close",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Coward",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kelly Reichardt",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2022,
+        "t": "Showing Up",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "The Mastermind",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tarik Saleh",
+    "nat": "🇸🇪/🇪🇬 İsveç",
+    "films": [
+      {
+        "y": 2022,
+        "t": "Boy from Heaven",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Eagles of Republic",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Marie Kreutzer",
+    "nat": "🇦🇹 Avusturya",
+    "films": [
+      {
+        "y": 2022,
+        "t": "Corsage",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actress"
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Gentle Monster",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mario Martone",
+    "nat": "🇮🇹 İtalya",
+    "films": [
+      {
+        "y": 2022,
+        "t": "Nostalgia",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Fuori",
+        "r": 6.4,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sergei Loznitsa",
+    "nat": "🇺🇦 Ukrayna",
+    "films": [
+      {
+        "y": 2012,
+        "t": "In the Fog",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2017,
+        "t": "A Gentle Creature",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Two Prosecutors",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wim Wenders",
+    "nat": "🇩🇪 Almanya",
+    "films": [
+      {
+        "y": 2023,
+        "t": "Perfect Days",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actor"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Int'l Film nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sean Baker",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2021,
+        "t": "Red Rocket",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "Anora",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          },
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Coralie Fargeat",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2024,
+        "t": "The Substance",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Brady Corbet",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2024,
+        "t": "The Brutalist",
+        "r": 8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          },
+          {
+            "f": "venice",
+            "a": "Best Director"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Payal Kapadia",
+    "nat": "🇮🇳 Hindistan",
+    "films": [
+      {
+        "y": 2024,
+        "t": "All We Imagine as Light",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mohammad Rasoulof",
+    "nat": "🇮🇷 İran",
+    "films": [
+      {
+        "y": 2024,
+        "t": "The Seed of the Sacred Fig",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Special Jury Prize"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Int'l Film nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "P.T. Anderson",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2007,
+        "t": "There Will Be Blood",
+        "r": 8.2,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "One Battle After Another",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "cannes"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "David Cronenberg",
+    "nat": "🇨🇦 Kanada",
+    "films": [
+      {
+        "y": 2022,
+        "t": "Crimes of the Future",
+        "r": 6.5,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "The Shrouds",
+        "r": 5.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2007,
+        "t": "Eastern Promises",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ali Abbasi",
+    "nat": "🇮🇷/🇩🇰 Danimarka",
+    "films": [
+      {
+        "y": 2024,
+        "t": "The Apprentice",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Michel Hazanavicius",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2011,
+        "t": "The Artist",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          },
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "The Most Precious of Cargoes",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ari Aster",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2025,
+        "t": "Eddington",
+        "r": 6.5,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Richard Linklater",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2025,
+        "t": "Nouvelle Vague",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2014,
+        "t": "Boyhood",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          },
+          {
+            "f": "berlin",
+            "a": "Silver Bear Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lynne Ramsay",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2011,
+        "t": "We Need to Talk About Kevin",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "FIPRESCI Prize"
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Die My Love",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Actress"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mascha Schilinski",
+    "nat": "🇩🇪 Almanya",
+    "films": [
+      {
+        "y": 2025,
+        "t": "Sound of Falling",
+        "r": 7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Jury Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "James Gray",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2000,
+        "t": "The Yards",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2007,
+        "t": "We Own the Night",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2013,
+        "t": "The Immigrant",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "Armageddon Time",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Paper Tiger",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Na Hong-jin",
+    "nat": "🇰🇷 G.Kore",
+    "films": [
+      {
+        "y": 2016,
+        "t": "The Wailing",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Hope",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Valeska Grisebach",
+    "nat": "🇩🇪 Almanya",
+    "films": [
+      {
+        "y": 2017,
+        "t": "Western",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "The Dreamed Adventure",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rodrigo Sorogoyen",
+    "nat": "🇪🇸 İspanya",
+    "films": [
+      {
+        "y": 2026,
+        "t": "The Beloved",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arthur Harari",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2026,
+        "t": "The Unknown",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ch. Bourgeois-Tacquet",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2021,
+        "t": "Anaïs in Love",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "A Woman's Life",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Emmanuel Marre",
+    "nat": "🇧🇪 Belçika",
+    "films": [
+      {
+        "y": 2026,
+        "t": "Notre Salut",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "İlker Çatak",
+    "nat": "🇩🇪 Almanya",
+    "films": [
+      {
+        "y": 2023,
+        "t": "The Teachers' Lounge",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Int'l Film nom."
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "Yellow Letters",
+        "r": 7,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sofia Coppola",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2003,
+        "t": "Lost in Translation",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2010,
+        "t": "Somewhere",
+        "r": 6.4,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "Priscilla",
+        "r": 7,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Best Actress"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ang Lee",
+    "nat": "🇹🇼/🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2000,
+        "t": "Crouching Tiger, Hidden Dragon",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2005,
+        "t": "Brokeback Mountain",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom. (lost)"
+          }
+        ]
+      },
+      {
+        "y": 2007,
+        "t": "Lust, Caution",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2012,
+        "t": "Life of Pi",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chloé Zhao",
+    "nat": "🇨🇳/🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2020,
+        "t": "Nomadland",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Hamnet",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Darren Aronofsky",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2008,
+        "t": "The Wrestler",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2010,
+        "t": "Black Swan",
+        "r": 8,
+        "fests": [
+          {
+            "f": "venice"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gianfranco Rosi",
+    "nat": "🇮🇹 İtalya",
+    "films": [
+      {
+        "y": 2013,
+        "t": "Sacro GRA",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2016,
+        "t": "Fire at Sea",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mati Diop",
+    "nat": "🇫🇷/🇸🇳 Fransa",
+    "films": [
+      {
+        "y": 2019,
+        "t": "Atlantics",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "Dahomey",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Carla Simón",
+    "nat": "🇪🇸 İspanya",
+    "films": [
+      {
+        "y": 2022,
+        "t": "Alcarràs",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Romería",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Radu Jude",
+    "nat": "🇷🇴 Romanya",
+    "films": [
+      {
+        "y": 2021,
+        "t": "Bad Luck Banging",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kim Ki-duk",
+    "nat": "🇰🇷 G.Kore",
+    "films": [
+      {
+        "y": 2012,
+        "t": "Pieta",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tsai Ming-liang",
+    "nat": "🇲🇾 Tayvan",
+    "films": [
+      {
+        "y": 2013,
+        "t": "Stray Dogs",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Grand Jury Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Roy Andersson",
+    "nat": "🇸🇪 İsveç",
+    "films": [
+      {
+        "y": 2014,
+        "t": "A Pigeon Sat on a Branch",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lorenzo Vigas",
+    "nat": "🇻🇪 Venezuela",
+    "films": [
+      {
+        "y": 2015,
+        "t": "From Afar",
+        "r": 7,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lav Diaz",
+    "nat": "🇵🇭 Filipinler",
+    "films": [
+      {
+        "y": 2016,
+        "t": "The Woman Who Left",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Guillermo del Toro",
+    "nat": "🇲🇽 Meksika",
+    "films": [
+      {
+        "y": 2017,
+        "t": "The Shape of Water",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Frankenstein",
+        "r": 7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Audrey Diwan",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2021,
+        "t": "Happening",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alfonso Cuarón",
+    "nat": "🇲🇽 Meksika",
+    "films": [
+      {
+        "y": 2018,
+        "t": "Roma",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Director",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2013,
+        "t": "Gravity",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Director",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jim Jarmusch",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2025,
+        "t": "Father Mother Sister Brother",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dag Johan Haugerud",
+    "nat": "🇳🇴 Norveç",
+    "films": [
+      {
+        "y": 2025,
+        "t": "Dreams (Sex Love)",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Danny Boyle",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2008,
+        "t": "Slumdog Millionaire",
+        "r": 8,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tom Hooper",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2010,
+        "t": "The King's Speech",
+        "r": 8,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2012,
+        "t": "Les Misérables",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Steve McQueen",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2013,
+        "t": "12 Years a Slave",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "David O. Russell",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2012,
+        "t": "Silver Linings Playbook",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2010,
+        "t": "The Fighter",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2013,
+        "t": "American Hustle",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alejandro G. Iñárritu",
+    "nat": "🇲🇽 Meksika",
+    "films": [
+      {
+        "y": 2006,
+        "t": "Babel",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Director"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2014,
+        "t": "Birdman",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2015,
+        "t": "The Revenant",
+        "r": 8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Director",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "Bardo",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "venice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Damien Chazelle",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2014,
+        "t": "Whiplash",
+        "r": 8.5,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize + Audience Award",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2016,
+        "t": "La La Land",
+        "r": 8,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Director",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kathryn Bigelow",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2009,
+        "t": "The Hurt Locker",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2012,
+        "t": "Zero Dark Thirty",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Martin McDonagh",
+    "nat": "🇮🇪 İrlanda",
+    "films": [
+      {
+        "y": 2017,
+        "t": "Three Billboards…",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "The Banshees of Inisherin",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Best Screenplay"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tom McCarthy",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2015,
+        "t": "Spotlight",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Adam McKay",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2015,
+        "t": "The Big Short",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice 2nd"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lee Daniels",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2009,
+        "t": "Precious",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury + Audience Award",
+            "main": 1
+          },
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Damian Szifron",
+    "nat": "🇦🇷 Arjantin",
+    "films": [
+      {
+        "y": 2014,
+        "t": "Wild Tales",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "cannes"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Foreign Film nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celine Song",
+    "nat": "🇰🇷/🇨🇦 Kanada",
+    "films": [
+      {
+        "y": 2023,
+        "t": "Past Lives",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "sundance"
+          },
+          {
+            "f": "toronto",
+            "a": "People's Choice 2nd"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bong Joon-ho",
+    "nat": "🇰🇷 G.Kore",
+    "films": [
+      {
+        "y": 2019,
+        "t": "Parasite",
+        "r": 8.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Palme d'Or",
+            "main": 1
+          },
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Steven Soderbergh",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2000,
+        "t": "Traffic",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Director",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2000,
+        "t": "Erin Brockovich",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ridley Scott",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2000,
+        "t": "Gladiator",
+        "r": 8.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stephen Daldry",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2000,
+        "t": "Billy Elliot",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Director nom."
+          }
+        ]
+      },
+      {
+        "y": 2002,
+        "t": "The Hours",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2008,
+        "t": "The Reader",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ron Howard",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2001,
+        "t": "A Beautiful Mind",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Robert Altman",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2001,
+        "t": "Gosford Park",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Todd Field",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2001,
+        "t": "In the Bedroom",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "Tár",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Peter Jackson",
+    "nat": "🇳🇿 Yeni Zelanda",
+    "films": [
+      {
+        "y": 2001,
+        "t": "The Fellowship of the Ring",
+        "r": 8.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2002,
+        "t": "The Two Towers",
+        "r": 8.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2003,
+        "t": "The Return of the King",
+        "r": 9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Baz Luhrmann",
+    "nat": "🇦🇺 Avustralya",
+    "films": [
+      {
+        "y": 2001,
+        "t": "Moulin Rouge!",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rob Marshall",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2002,
+        "t": "Chicago",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Martin Scorsese",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2002,
+        "t": "Gangs of New York",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2006,
+        "t": "The Departed",
+        "r": 8.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2019,
+        "t": "The Irishman",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "Killers of the Flower Moon",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clint Eastwood",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2003,
+        "t": "Mystic River",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2004,
+        "t": "Million Dollar Baby",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2006,
+        "t": "Letters from Iwo Jima",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Peter Weir",
+    "nat": "🇦🇺 Avustralya",
+    "films": [
+      {
+        "y": 2003,
+        "t": "Master and Commander",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alexander Payne",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2004,
+        "t": "Sideways",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2011,
+        "t": "The Descendants",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Taylor Hackford",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2004,
+        "t": "Ray",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Marc Forster",
+    "nat": "🇩🇪 Almanya",
+    "films": [
+      {
+        "y": 2004,
+        "t": "Finding Neverland",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Paul Haggis",
+    "nat": "🇨🇦 Kanada",
+    "films": [
+      {
+        "y": 2005,
+        "t": "Crash",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bennett Miller",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2005,
+        "t": "Capote",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "George Clooney",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2005,
+        "t": "Good Night, and Good Luck.",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Steven Spielberg",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2005,
+        "t": "Munich",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2021,
+        "t": "West Side Story",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "The Fabelmans",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stephen Frears",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2006,
+        "t": "The Queen",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jonathan Dayton & Valerie Faris",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2006,
+        "t": "Little Miss Sunshine",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Coen Brothers",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2007,
+        "t": "No Country for Old Men",
+        "r": 8.2,
+        "fests": [
+          {
+            "f": "cannes"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Joe Wright",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2007,
+        "t": "Atonement",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jason Reitman",
+    "nat": "🇨🇦 Kanada",
+    "films": [
+      {
+        "y": 2007,
+        "t": "Juno",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2009,
+        "t": "Up in the Air",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tony Gilroy",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2007,
+        "t": "Michael Clayton",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "David Fincher",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2008,
+        "t": "The Curious Case of Benjamin Button",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2010,
+        "t": "The Social Network",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "James Cameron",
+    "nat": "🇨🇦 Kanada",
+    "films": [
+      {
+        "y": 2009,
+        "t": "Avatar",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Quentin Tarantino",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2009,
+        "t": "Inglourious Basterds",
+        "r": 8.3,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Best Screenplay"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2012,
+        "t": "Django Unchained",
+        "r": 8.4,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2019,
+        "t": "Once Upon a Time in Hollywood",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Neill Blomkamp",
+    "nat": "🇿🇦 G.Afrika",
+    "films": [
+      {
+        "y": 2009,
+        "t": "District 9",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lone Scherfig",
+    "nat": "🇩🇰 Danimarka",
+    "films": [
+      {
+        "y": 2009,
+        "t": "An Education",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ethan & Joel Coen",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2009,
+        "t": "A Serious Man",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Christopher Nolan",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2010,
+        "t": "Inception",
+        "r": 8.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "Oppenheimer",
+        "r": 8.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lisa Cholodenko",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2010,
+        "t": "The Kids Are All Right",
+        "r": 7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Debra Granik",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2010,
+        "t": "Winter's Bone",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Woody Allen",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2011,
+        "t": "Midnight in Paris",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ben Affleck",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2012,
+        "t": "Argo",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Morten Tyldum",
+    "nat": "🇳🇴 Norveç",
+    "films": [
+      {
+        "y": 2014,
+        "t": "The Imitation Game",
+        "r": 8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "James Marsh",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2014,
+        "t": "The Theory of Everything",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "John Crowley",
+    "nat": "🇮🇪 İrlanda",
+    "films": [
+      {
+        "y": 2015,
+        "t": "Brooklyn",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "George Miller",
+    "nat": "🇦🇺 Avustralya",
+    "films": [
+      {
+        "y": 2015,
+        "t": "Mad Max: Fury Road",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Barry Jenkins",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2016,
+        "t": "Moonlight",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice 2nd"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2018,
+        "t": "If Beale Street Could Talk",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice 2nd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mel Gibson",
+    "nat": "🇦🇺 Avustralya",
+    "films": [
+      {
+        "y": 2016,
+        "t": "Hacksaw Ridge",
+        "r": 8.2,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kenneth Lonergan",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2016,
+        "t": "Manchester by the Sea",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Denis Villeneuve",
+    "nat": "🇨🇦 Kanada",
+    "films": [
+      {
+        "y": 2016,
+        "t": "Arrival",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "Dune: Part Two",
+        "r": 8.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Theodore Melfi",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2016,
+        "t": "Hidden Figures",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Garth Davis",
+    "nat": "🇦🇺 Avustralya",
+    "films": [
+      {
+        "y": 2016,
+        "t": "Lion",
+        "r": 8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Greta Gerwig",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2017,
+        "t": "Lady Bird",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2019,
+        "t": "Little Women",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "Barbie",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jordan Peele",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2017,
+        "t": "Get Out",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Peter Farrelly",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2018,
+        "t": "Green Book",
+        "r": 8.2,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spike Lee",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2018,
+        "t": "BlacKkKlansman",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ryan Coogler",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2018,
+        "t": "Black Panther",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2025,
+        "t": "Sinners",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2013,
+        "t": "Fruitvale Station",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sam Mendes",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2019,
+        "t": "1917",
+        "r": 8.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Todd Phillips",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2019,
+        "t": "Joker",
+        "r": 8.4,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Taika Waititi",
+    "nat": "🇳🇿 Yeni Zelanda",
+    "films": [
+      {
+        "y": 2019,
+        "t": "Jojo Rabbit",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice 2nd"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Noah Baumbach",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2019,
+        "t": "Marriage Story",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "venice"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "James Mangold",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2019,
+        "t": "Ford v Ferrari",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "A Complete Unknown",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Aaron Sorkin",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2020,
+        "t": "The Trial of the Chicago 7",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Darius Marder",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2020,
+        "t": "Sound of Metal",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Emerald Fennell",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2020,
+        "t": "Promising Young Woman",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shaka King",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2020,
+        "t": "Judas and the Black Messiah",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Florian Zeller",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2020,
+        "t": "The Father",
+        "r": 8.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jane Campion",
+    "nat": "🇳🇿 Yeni Zelanda",
+    "films": [
+      {
+        "y": 2021,
+        "t": "The Power of the Dog",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Silver Lion Best Director"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kenneth Branagh",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2021,
+        "t": "Belfast",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sian Heder",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2021,
+        "t": "CODA",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury + Audience Award",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Daniel Kwan & Daniel Scheinert",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2022,
+        "t": "Everything Everywhere All at Once",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture + Director",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sarah Polley",
+    "nat": "🇨🇦 Kanada",
+    "films": [
+      {
+        "y": 2022,
+        "t": "Women Talking",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Edward Berger",
+    "nat": "🇩🇪 Almanya",
+    "films": [
+      {
+        "y": 2022,
+        "t": "All Quiet on the Western Front",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      },
+      {
+        "y": 2024,
+        "t": "Conclave",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice 2nd"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jonathan Glazer",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2023,
+        "t": "The Zone of Interest",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "Grand Prix"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Andrew Haigh",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2011,
+        "t": "Weekend",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "sundance"
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "All of Us Strangers",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          },
+          {
+            "f": "sundance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Walter Salles",
+    "nat": "🇧🇷 Brezilya",
+    "films": [
+      {
+        "y": 2024,
+        "t": "I'm Still Here",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Best Actress"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Int'l Film",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "RaMell Ross",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2024,
+        "t": "Nickel Boys",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jon M. Chu",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2024,
+        "t": "Wicked",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Joseph Kosinski",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2025,
+        "t": "F1",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Josh Safdie",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2025,
+        "t": "Marty Supreme",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clint Bentley & Greg Kwedar",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2025,
+        "t": "Train Dreams",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mira Nair",
+    "nat": "🇮🇳 Hindistan",
+    "films": [
+      {
+        "y": 2001,
+        "t": "Monsoon Wedding",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Peter Mullan",
+    "nat": "🇬🇧 İskoçya",
+    "films": [
+      {
+        "y": 2002,
+        "t": "The Magdalene Sisters",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mike Leigh",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2004,
+        "t": "Vera Drake",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Samuel Maoz",
+    "nat": "🇮🇱 İsrail",
+    "films": [
+      {
+        "y": 2009,
+        "t": "Lebanon",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alexander Sokurov",
+    "nat": "🇷🇺 Rusya",
+    "films": [
+      {
+        "y": 2011,
+        "t": "Faust",
+        "r": 7,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Laura Poitras",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2022,
+        "t": "All the Beauty and the Bloodshed",
+        "r": 8,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Golden Lion",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Benny Safdie",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2025,
+        "t": "The Smashing Machine",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Silver Lion Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lee Chang-dong",
+    "nat": "🇰🇷 G.Kore",
+    "films": [
+      {
+        "y": 2002,
+        "t": "Oasis",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Silver Lion Best Director"
+          }
+        ]
+      },
+      {
+        "y": 2018,
+        "t": "Burning",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "cannes",
+            "a": "FIPRESCI Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pablo Trapero",
+    "nat": "🇦🇷 Arjantin",
+    "films": [
+      {
+        "y": 2015,
+        "t": "The Clan",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Silver Lion Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Amat Escalante",
+    "nat": "🇲🇽 Meksika",
+    "films": [
+      {
+        "y": 2016,
+        "t": "The Untamed",
+        "r": 6.6,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Silver Lion Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Xavier Legrand",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2017,
+        "t": "Custody",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Silver Lion Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ildikó Enyedi",
+    "nat": "🇭🇺 Macaristan",
+    "films": [
+      {
+        "y": 2017,
+        "t": "On Body and Soul",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Patrice Chéreau",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2001,
+        "t": "Intimacy",
+        "r": 6.6,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Paul Greengrass",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2002,
+        "t": "Bloody Sunday",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Michael Winterbottom",
+    "nat": "🇬🇧 İngiltere",
+    "films": [
+      {
+        "y": 2003,
+        "t": "In This World",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fatih Akın",
+    "nat": "🇩🇪 Almanya",
+    "films": [
+      {
+        "y": 2004,
+        "t": "Head-On",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jasmila Žbanić",
+    "nat": "🇧🇦 B&H",
+    "films": [
+      {
+        "y": 2006,
+        "t": "Grbavica",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wang Quan'an",
+    "nat": "🇨🇳 Çin",
+    "films": [
+      {
+        "y": 2007,
+        "t": "Tuya's Marriage",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "José Padilha",
+    "nat": "🇧🇷 Brezilya",
+    "films": [
+      {
+        "y": 2008,
+        "t": "Elite Squad",
+        "r": 7.7,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Claudia Llosa",
+    "nat": "🇵🇪 Peru",
+    "films": [
+      {
+        "y": 2009,
+        "t": "The Milk of Sorrow",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Semih Kaplanoğlu",
+    "nat": "🇹🇷 Türkiye",
+    "films": [
+      {
+        "y": 2010,
+        "t": "Honey",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ulrich Köhler",
+    "nat": "🇩🇪 Almanya",
+    "films": [
+      {
+        "y": 2012,
+        "t": "Sleeping Sickness",
+        "r": 6.7,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Silver Bear Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Calin Peter Netzer",
+    "nat": "🇷🇴 Romanya",
+    "films": [
+      {
+        "y": 2013,
+        "t": "Child's Pose",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Małgorzata Szumowska",
+    "nat": "🇵🇱 Polonya",
+    "films": [
+      {
+        "y": 2015,
+        "t": "Body/Ciało",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Silver Bear Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Danis Tanović",
+    "nat": "🇧🇦 B&H",
+    "films": [
+      {
+        "y": 2013,
+        "t": "An Episode in the Life of an Iron Picker",
+        "r": 7,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Silver Bear Grand Jury + Best Actor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hong Sang-soo",
+    "nat": "🇰🇷 G.Kore",
+    "films": [
+      {
+        "y": 2020,
+        "t": "The Woman Who Ran",
+        "r": 7,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Silver Bear Best Director"
+          }
+        ]
+      },
+      {
+        "y": 2021,
+        "t": "Introduction",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Silver Bear Best Screenplay"
+          }
+        ]
+      },
+      {
+        "y": 2022,
+        "t": "The Novelist's Film",
+        "r": 7,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Silver Bear Grand Jury"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Maria Speth",
+    "nat": "🇩🇪 Almanya",
+    "films": [
+      {
+        "y": 2023,
+        "t": "Herr Bachmann und seine Klasse",
+        "r": 8,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Silver Bear Grand Jury"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Philippe Garrel",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2005,
+        "t": "Regular Lovers",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Silver Lion Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jean-Pierre Jeunet",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2001,
+        "t": "Amélie",
+        "r": 8.3,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Niki Caro",
+    "nat": "🇳🇿 Yeni Zelanda",
+    "films": [
+      {
+        "y": 2002,
+        "t": "Whale Rider",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Takeshi Kitano",
+    "nat": "🇯🇵 Japonya",
+    "films": [
+      {
+        "y": 2003,
+        "t": "Zatoichi",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          },
+          {
+            "f": "venice",
+            "a": "Silver Lion Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terry George",
+    "nat": "🇮🇪 İrlanda",
+    "films": [
+      {
+        "y": 2004,
+        "t": "Hotel Rwanda",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gavin Hood",
+    "nat": "🇿🇦 G.Afrika",
+    "films": [
+      {
+        "y": 2005,
+        "t": "Tsotsi",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alejandro G. Monteverde",
+    "nat": "🇲🇽 Meksika",
+    "films": [
+      {
+        "y": 2006,
+        "t": "Bella",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mike Flanagan",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2024,
+        "t": "The Life of Chuck",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Emilio Estevez",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2010,
+        "t": "The Way",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Benh Zeitlin",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2012,
+        "t": "Beasts of the Southern Wild",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury + Cinematography",
+            "main": 1
+          },
+          {
+            "f": "cannes",
+            "a": "Un Certain Regard"
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jean-Marc Vallée",
+    "nat": "🇨🇦 Kanada",
+    "films": [
+      {
+        "y": 2013,
+        "t": "Dallas Buyers Club",
+        "r": 8,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice 2nd"
+          }
+        ]
+      },
+      {
+        "y": 2014,
+        "t": "Wild",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice 2nd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Atom Egoyan",
+    "nat": "🇨🇦 Kanada",
+    "films": [
+      {
+        "y": 2014,
+        "t": "The Captive",
+        "r": 5.9,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lenny Abrahamson",
+    "nat": "🇮🇪 İrlanda",
+    "films": [
+      {
+        "y": 2015,
+        "t": "Room",
+        "r": 8.1,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice 2nd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mélanie Laurent",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2022,
+        "t": "The Mad Women's Ball",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "toronto",
+            "a": "People's Choice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Derek Cianfrance",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2010,
+        "t": "Blue Valentine",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Audience Award",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sean Durkin",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2011,
+        "t": "Martha Marcy May Marlene",
+        "r": 7,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Directing Award"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dee Rees",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2011,
+        "t": "Pariah",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Cinematography Award"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Karyn Kusama",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2000,
+        "t": "Girlfight",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Henry Bean",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2001,
+        "t": "The Believer",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rebecca Miller",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2002,
+        "t": "Personal Velocity",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shari Springer Berman & Robert Pulcini",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2003,
+        "t": "American Splendor",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shane Carruth",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2004,
+        "t": "Primer",
+        "r": 7,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ira Sachs",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2005,
+        "t": "Forty Shades of Blue",
+        "r": 6.5,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      },
+      {
+        "y": 2023,
+        "t": "Passages",
+        "r": 6.6,
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      },
+      {
+        "y": 2026,
+        "t": "The Man I Love",
+        "fests": [
+          {
+            "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Richard Glatzer",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2006,
+        "t": "Quinceañera",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Christopher Zalla",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2007,
+        "t": "Padre Nuestro",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Courtney Hunt",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2008,
+        "t": "Frozen River",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Drake Doremus",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2011,
+        "t": "Like Crazy",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alfonso Gomez-Rejon",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2015,
+        "t": "Me and Earl and the Dying Girl",
+        "r": 7.8,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nate Parker",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2016,
+        "t": "The Birth of a Nation",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Macon Blair",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2017,
+        "t": "I Don't Feel at Home…",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Desiree Akhavan",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2018,
+        "t": "The Miseducation of Cameron Post",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chinonye Chukwu",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2019,
+        "t": "Clemency",
+        "r": 6.9,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lee Isaac Chung",
+    "nat": "🇰🇷/🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2020,
+        "t": "Minari",
+        "r": 7.5,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          },
+          {
+            "f": "oscar",
+            "a": "Best Picture nom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nikyatu Jusu",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2022,
+        "t": "Nanny",
+        "r": 6.3,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "A.V. Rockwell",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2023,
+        "t": "A Thousand and One",
+        "r": 7.1,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alessandra Lacorazza",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2024,
+        "t": "In the Summers",
+        "r": 7,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hailey Gates",
+    "nat": "🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2025,
+        "t": "Atropia",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Beth de Araújo",
+    "nat": "🇧🇷/🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2026,
+        "t": "Josephine",
+        "r": 7,
+        "fests": [
+          {
+            "f": "sundance",
+            "a": "Grand Jury Prize",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>6 Büyük Festival — Yönetmenler 2000–2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cream:#faf8f4; --ink:#1a1814; --muted:#7a7060;
+  --border:rgba(26,24,20,.10); --border-s:rgba(26,24,20,.18);
+  --cannes:#1a6bbf;    --cannes-bg:#e6f1fb; --cannes-light:#d0e8f8; --cannes-dark:#0c447c;
+  --venice:#c0392b;    --venice-bg:#fdf0ee; --venice-light:#fad8d4; --venice-dark:#7b1a10;
+  --berlin:#2e9e4f;    --berlin-bg:#e8f8ed; --berlin-light:#c6efd4; --berlin-dark:#155a28;
+  --sundance:#d4680a;  --sundance-bg:#fde3c0; --sundance-light:#fad8b4; --sundance-dark:#8a3c00;
+  --toronto:#7b5ea7;   --toronto-bg:#f3eefe; --toronto-light:#e0d4f8; --toronto-dark:#4a2d7a;
+  --oscar:#b8860b;     --oscar-bg:#fde87a;   --oscar-light:#faefc0;   --oscar-dark:#6b5000;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);min-height:100vh}
+
+/* ─── Header ─── */
+header{
+  background:#1a2f4e;color:#fff;
+  padding:24px 40px 20px;
+  display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;
+  position:sticky;top:0;z-index:100;border-bottom:2px solid #c9a84c;
+}
+.hl{display:flex;flex-direction:column;gap:3px}
+.heyebrow{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#f0d28a;opacity:.8}
+h1{font-family:'Playfair Display',serif;font-size:24px;font-weight:600;color:#fff;line-height:1.15}
+h1 em{font-style:italic;color:#f0d28a}
+.hsub{font-size:11px;color:rgba(255,255,255,.4);font-weight:300}
+
+/* ─── Controls ─── */
+.ctrl{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.ctrl input,.ctrl select{
+  font-family:'DM Sans',sans-serif;font-size:12px;padding:6px 10px;
+  border-radius:6px;border:1px solid rgba(255,255,255,.2);
+  background:rgba(255,255,255,.1);color:#fff;outline:none;
+}
+.ctrl select option{background:#1a2f4e;color:#fff}
+.ctrl input::placeholder{color:rgba(255,255,255,.35)}
+.ctrl input:focus,.ctrl select:focus{border-color:#c9a84c}
+.fbtn{
+  font-family:'DM Sans',sans-serif;font-size:11px;padding:5px 10px;
+  border-radius:20px;border:1px solid rgba(255,255,255,.22);
+  background:transparent;color:rgba(255,255,255,.65);cursor:pointer;transition:all .15s;white-space:nowrap;
+}
+.fbtn:hover{border-color:#c9a84c;color:#f0d28a}
+.fbtn.on{background:#c9a84c;border-color:#c9a84c;color:#1a2f4e;font-weight:500}
+.stat{font-size:10px;color:rgba(255,255,255,.3);font-weight:300}
+
+/* ─── Festival tab pills ─── */
+.fest-tabs{display:flex;gap:6px;flex-wrap:wrap;padding:12px 40px 0}
+.ftab{
+  font-size:11px;font-weight:500;padding:5px 12px;border-radius:20px;cursor:pointer;
+  transition:all .15s;border:1.5px solid transparent;display:flex;align-items:center;gap:5px;
+}
+.ftab svg{width:12px;height:12px;flex-shrink:0}
+.ftab.off{opacity:.38;filter:grayscale(.7)}
+.ftab[data-f="cannes"]   {background:var(--cannes-bg);color:var(--cannes-dark);border-color:var(--cannes)}
+.ftab[data-f="venice"]   {background:var(--venice-bg);color:var(--venice-dark);border-color:var(--venice)}
+.ftab[data-f="berlin"]   {background:var(--berlin-bg);color:var(--berlin-dark);border-color:var(--berlin)}
+.ftab[data-f="sundance"] {background:var(--sundance-bg);color:var(--sundance-dark);border-color:var(--sundance)}
+.ftab[data-f="toronto"]  {background:var(--toronto-bg);color:var(--toronto-dark);border-color:var(--toronto)}
+.ftab[data-f="oscar"]    {background:var(--oscar-bg);color:var(--oscar-dark);border-color:var(--oscar)}
+
+/* ─── Grid scroll ─── */
+.gs-wrap{display:flex;flex-direction:column;gap:0}
+.gs-top{overflow-x:auto;overflow-y:hidden;height:8px;padding:0 40px}
+.gs-top-inner{height:1px}
+.gs-top::-webkit-scrollbar{height:4px}
+.gs-top::-webkit-scrollbar-thumb{background:var(--border-s);border-radius:2px}
+.gs{overflow-x:auto;padding:12px 40px 40px}
+.gs::-webkit-scrollbar{height:4px}
+.gs::-webkit-scrollbar-thumb{background:var(--border-s);border-radius:2px}
+
+/* ─── Table ─── */
+table{border-collapse:collapse;table-layout:fixed}
+.nth,.ntd{position:sticky;left:0;z-index:10;background:var(--cream)}
+.nth{
+  width:190px;min-width:190px;padding:12px 12px 8px 0;
+  font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);border-bottom:1px solid var(--border-s);vertical-align:bottom;
+}
+.yth{
+  width:72px;min-width:72px;padding:12px 3px 8px;
+  font-size:10px;text-align:center;vertical-align:bottom;
+  border-bottom:1px solid var(--border-s);color:var(--muted);white-space:nowrap;
+}
+.yth.sel{color:#1a2f4e;font-weight:700;font-size:11px;border-bottom:2px solid #c9a84c}
+.yth.hf{color:var(--ink)}
+.ntd{
+  width:190px;min-width:190px;padding:3px 12px 3px 0;
+  vertical-align:middle;border-top:1px solid var(--border);
+}
+.di{padding:3px 0}
+.dn{font-size:11px;font-weight:500;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:184px}
+.dc{font-size:10px;color:var(--muted);font-weight:300}
+.cell{
+  width:72px;min-width:72px;
+  border-left:1px solid var(--border);border-top:1px solid var(--border);
+  vertical-align:middle;text-align:center;padding:2px;
+}
+.cell.csel{background:rgba(201,168,76,.05)}
+tr:hover .cell{background:rgba(26,24,20,.02)}
+tr:hover .cell.csel{background:rgba(201,168,76,.09)}
+tr:hover .ntd{background:rgba(26,24,20,.02)}
+
+/* ─── Multi-festival Pill ─── */
+.pill{
+  position:relative;
+  display:flex;flex-direction:column;align-items:stretch;
+  width:68px;min-height:44px;border-radius:6px;
+  overflow:hidden;cursor:default;
+  transition:transform .12s,box-shadow .12s;
+  border:1px solid transparent;
+}
+.pill:hover{transform:scale(1.12);box-shadow:0 4px 18px rgba(0,0,0,.18);z-index:60;overflow:visible}
+
+/* Festival stripes — horizontal bands */
+.pstripe{
+  flex:1;display:flex;align-items:center;justify-content:center;
+  min-height:14px;position:relative;
+}
+
+/* Single stripe pill — show name + rating */
+.pill.single .pstripe{flex-direction:column;gap:1px;min-height:44px}
+.pname{font-size:7.5px;line-height:1.2;text-align:center;width:100%;padding:0 2px;
+  overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.prating{font-size:8px;font-weight:600;opacity:.88}
+
+/* Multi stripe: just a colored band */
+.pstripe-label{
+  font-size:7px;font-weight:500;letter-spacing:.03em;opacity:.8;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 3px;
+}
+
+/* Award icons row — right side of pill */
+.pawards{
+  position:absolute;top:2px;right:2px;
+  display:flex;flex-direction:column;gap:1px;z-index:2;
+}
+.pawards svg{width:10px;height:10px}
+
+/* Border system for awards */
+.pill.has-main{border-width:2px}
+.pill.no-award{border-width:1px;opacity:.82}
+
+/* Festival stripe colors */
+.ps-cannes  {background:var(--cannes-bg)}
+.ps-venice  {background:var(--venice-bg)}
+.ps-berlin  {background:var(--berlin-bg)}
+.ps-sundance{background:var(--sundance-bg)}
+.ps-toronto {background:var(--toronto-bg)}
+.ps-oscar   {background:var(--oscar-bg)}
+
+/* Text colors per festival */
+.ps-cannes   .pname,.ps-cannes   .prating,.ps-cannes   .pstripe-label{color:var(--cannes-dark)}
+.ps-venice   .pname,.ps-venice   .prating,.ps-venice   .pstripe-label{color:var(--venice-dark)}
+.ps-berlin   .pname,.ps-berlin   .prating,.ps-berlin   .pstripe-label{color:var(--berlin-dark)}
+.ps-sundance .pname,.ps-sundance .prating,.ps-sundance .pstripe-label{color:var(--sundance-dark)}
+.ps-toronto  .pname,.ps-toronto  .prating,.ps-toronto  .pstripe-label{color:var(--toronto-dark)}
+.ps-oscar    .pname,.ps-oscar    .prating,.ps-oscar    .pstripe-label{color:var(--oscar-dark)}
+
+/* Multi-stripe pill border = gradient of festival colors (CSS trick via box-shadow) */
+.pill.multi-f{border:none;box-shadow:0 0 0 1.5px #ccc}
+.pill.multi-f.has-main{box-shadow:0 0 0 2.5px #888}
+
+/* ─── Tooltip ─── */
+.tip{
+  display:none;position:absolute;bottom:calc(100%+6px);left:50%;transform:translateX(-50%);
+  background:#1a2f4e;color:#fff;border-radius:8px;padding:9px 11px;
+  width:200px;font-size:11px;line-height:1.55;z-index:300;
+  pointer-events:none;box-shadow:0 4px 18px rgba(0,0,0,.22);
+}
+.tip::after{content:'';position:absolute;top:100%;left:50%;transform:translateX(-50%);
+  border:5px solid transparent;border-top-color:#1a2f4e}
+.pill:hover .tip{display:block}
+.tip .tt{font-family:'Playfair Display',serif;font-size:12px;margin-bottom:4px;color:#fff}
+.tip .tv{color:rgba(255,255,255,.55);font-size:10px}
+.tip .tf{font-size:10px;margin-top:2px;padding:2px 0;border-top:1px solid rgba(255,255,255,.1)}
+.tip .tf-name{font-weight:500;color:#c9a84c}
+.tip .tf-award{color:#f0d28a;font-size:9.5px}
+.tip .tf-sel{color:rgba(255,255,255,.45);font-size:9.5px}
+
+/* ─── Legend ─── */
+.legend{
+  display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+  padding:12px 40px;border-top:1px solid var(--border);
+}
+.li{display:flex;align-items:center;gap:5px;font-size:10px;color:var(--muted)}
+.ls{width:20px;height:11px;border-radius:4px}
+.ln{font-style:italic;color:var(--muted);font-size:10px;margin-left:auto}
+
+@media(max-width:600px){
+  header{padding:16px 20px} h1{font-size:18px}
+  .gs{padding:8px 16px 32px} .legend{padding:10px 16px}
+  .fest-tabs{padding:8px 16px 0}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hl">
+    <span class="heyebrow">Cannes · Venedik · Berlin · Sundance · Toronto · Oscar</span>
+    <h1>6 Büyük Festival <em>2000 – 2026</em></h1>
+    <div class="hsub">Yönetmenler · adaylıklar · ödüller · IMDb puanları</div>
+  </div>
+  <div class="ctrl">
+    <input type="text" id="sq" placeholder="Yönetmen veya film…" oninput="render()">
+    <select id="yr-sel" onchange="render()"><option value="">Tüm yıllar</option></select>
+    <button class="fbtn on" onclick="setF('all',this)">Tümü</button>
+    <button class="fbtn" onclick="setF('main',this)">Ana ödül</button>
+    <button class="fbtn" onclick="setF('high',this)">IMDb 8+</button>
+    <span class="stat" id="stat"></span>
+  </div>
+</header>
+
+<div class="fest-tabs" id="fest-tabs"></div>
+
+<div class="gs-wrap">
+<div class="gs-top" id="gs-top"><div class="gs-top-inner" id="gs-top-inner"></div></div>
+<div class="gs" id="gs-main"><div id="grid"></div></div>
+</div>
+
+<div class="legend">
+  <div class="li">
+    <div class="ls" style="border:2.5px solid #888;background:linear-gradient(to right,#e6f1fb 50%,#fdf0ee 50%)"></div>
+    Çoklu festival — renkli şeritler
+  </div>
+  <div class="li">
+    <div class="ls" style="border:2px solid #888;background:#f5f3ee"></div>
+    Ana ödül (kalın çerçeve + ikon)
+  </div>
+  <div class="li">
+    <div class="ls" style="border:1px solid #bbb;background:#f5f3ee;opacity:.75"></div>
+    Seçki / adaylık
+  </div>
+  <span class="ln">Hover ile detay · ★ IMDb</span>
+</div>
+
+<script>
+/* ── SVG icons ── */
+const ICONS = {
+  cannes:`<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <line x1="10" y1="19" x2="10" y2="7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <ellipse cx="10" cy="5.5" rx="1.5" ry="1" fill="currentColor"/>
+    <path d="M10 7 Q6 10 3 9 Q6 13 10 12 Q14 13 17 9 Q14 10 10 7Z" fill="currentColor" opacity=".9"/>
+    <path d="M10 12 Q6.5 15 4 14.5 Q6.5 18 10 17 Q13.5 18 16 14.5 Q13.5 15 10 12Z" fill="currentColor" opacity=".6"/>
+  </svg>`,
+  venice:`<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 3 C5.5 3 3 6.5 3 9.5 C3 12 4.5 14 7 15.5 L7 18 L13 18 L13 15.5 C15.5 14 17 12 17 9.5 C17 6.5 14.5 3 10 3Z" stroke="currentColor" stroke-width="1.5"/>
+    <circle cx="7" cy="9" r="1.3" fill="currentColor"/>
+    <circle cx="13" cy="9" r="1.3" fill="currentColor"/>
+    <path d="M8 12 Q10 13.5 12 12" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M8.5 3.5 L10 1.5 L11.5 3.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>`,
+  berlin:`<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 3 C7 3 5 5.5 5 7.5 C5 9.5 6 11 8 12 L7 17 L13 17 L12 12 C14 11 15 9.5 15 7.5 C15 5.5 13 3 10 3Z" stroke="currentColor" stroke-width="1.5"/>
+    <circle cx="7.5" cy="7.5" r="1.2" fill="currentColor"/>
+    <circle cx="12.5" cy="7.5" r="1.2" fill="currentColor"/>
+    <path d="M8 10 Q10 11.5 12 10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+  </svg>`,
+  sundance:`<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="10" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="10" y1="2" x2="10" y2="4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="10" y1="15.5" x2="10" y2="18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="2" y1="10" x2="4.5" y2="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="15.5" y1="10" x2="18" y2="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="4.5" y1="4.5" x2="6.3" y2="6.3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+    <line x1="13.7" y1="13.7" x2="15.5" y2="15.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+    <line x1="15.5" y1="4.5" x2="13.7" y2="6.3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+    <line x1="6.3" y1="13.7" x2="4.5" y2="15.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+  </svg>`,
+  toronto:`<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 3 L10.8 6 L14 6 L11.5 7.8 L12.5 11 L10 9.2 L7.5 11 L8.5 7.8 L6 6 L9.2 6 Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M5 13 Q7.5 17 10 17 Q12.5 17 15 13" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" fill="none"/>
+    <line x1="10" y1="11" x2="10" y2="13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+  </svg>`,
+  oscar:`<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="7.5" y="14" width="5" height="2" rx="0.5" fill="currentColor"/>
+    <rect x="6" y="16" width="8" height="1.5" rx="0.5" fill="currentColor"/>
+    <rect x="8.5" y="9.5" width="3" height="4.5" rx="0.5" stroke="currentColor" stroke-width="1.2"/>
+    <ellipse cx="10" cy="7" rx="3" ry="3.5" stroke="currentColor" stroke-width="1.8"/>
+    <line x1="10" y1="3.5" x2="10" y2="2" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="8.5" y1="2" x2="11.5" y2="2" stroke="currentColor" stroke-width="1.2"/>
+  </svg>`,
+};
+
+/* ── Festival meta ── */
+const FESTS = {
+  cannes:   {name:'Cannes',    mainAward:"Palme d'Or",       color:'#1a6bbf', dark:'#0c447c', bg:'#e6f1fb'},
+  venice:   {name:'Venedik',   mainAward:'Golden Lion',      color:'#c0392b', dark:'#7b1a10', bg:'#fdf0ee'},
+  berlin:   {name:'Berlin',    mainAward:'Golden Bear',      color:'#2e9e4f', dark:'#155a28', bg:'#e8f8ed'},
+  sundance: {name:'Sundance',  mainAward:'Grand Jury Prize', color:'#d4680a', dark:'#8a3c00', bg:'#fdf0e3'},
+  toronto:  {name:'Toronto',   mainAward:"People's Choice",  color:'#7b5ea7', dark:'#4a2d7a', bg:'#f3eefe'},
+  oscar:    {name:'Oscar',     mainAward:'Best Picture',     color:'#b8860b', dark:'#6b5000', bg:'#fefae6'},
+};
+
+/*
+  NEW DATA FORMAT — director-based, films merged:
+  {
+    name, nat,
+    films: [
+      {
+        y,          // year (film release year)
+        t,          // title
+        r,          // imdb rating (optional)
+        fests: [    // festival appearances
+          { f, a, main }
+          // f = festival key
+          // a = award text (optional)
+          // main = 1 if main award winner
+          // (no flag = selection only)
+        ]
+      }
+    ]
+  }
+*/
+
+const DIRS = [
+{name:"Michael Haneke", nat:"🇦🇹 Avusturya", films:[
+    {y:2001,t:"The Piano Teacher",r:7.7,fests:[{f:"cannes",a:"Grand Prix + Best Actor/Actress"}]},
+    {y:2005,t:"Caché",r:7.5,fests:[{f:"cannes",a:"Best Director"}]},
+    {y:2009,t:"The White Ribbon",r:7.9,fests:[{f:"cannes",a:"Palme d'Or",main:1},{f:"oscar",a:"Best Foreign Film nom."}]},
+    {y:2012,t:"Amour",r:7.9,fests:[{f:"cannes",a:"Palme d'Or",main:1},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Ken Loach", nat:"🇬🇧 İngiltere", films:[
+    {y:2002,t:"Sweet Sixteen",r:7.8,fests:[{f:"cannes",a:"Best Screenplay"}]},
+    {y:2004,t:"Ae Fond Kiss",r:7.5,fests:[{f:"cannes"}]},
+    {y:2006,t:"The Wind That Shakes the Barley",r:7.7,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2009,t:"Looking for Eric",r:7.3,fests:[{f:"cannes"}]},
+    {y:2012,t:"The Angels' Share",r:7.5,fests:[{f:"cannes",a:"Jury Prize"}]},
+    {y:2014,t:"Jimmy's Hall",r:7,fests:[{f:"cannes"}]},
+    {y:2016,t:"I, Daniel Blake",r:7.9,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2019,t:"Sorry We Missed You",r:7.9,fests:[{f:"cannes"}]},
+    {y:2022,t:"The Old Oak",r:7.1,fests:[{f:"cannes"}]}
+]},
+{name:"Dardenne Brothers", nat:"🇧🇪 Belçika", films:[
+    {y:2002,t:"The Son",r:7.7,fests:[{f:"cannes"}]},
+    {y:2005,t:"L'Enfant",r:7.6,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2008,t:"Lorna's Silence",r:7.2,fests:[{f:"cannes",a:"Best Screenplay"}]},
+    {y:2011,t:"The Kid with a Bike",r:7.6,fests:[{f:"cannes",a:"Grand Prix"}]},
+    {y:2014,t:"Two Days, One Night",r:7.7,fests:[{f:"cannes"}]},
+    {y:2019,t:"Young Ahmed",r:6.6,fests:[{f:"cannes",a:"Best Director"}]},
+    {y:2022,t:"Tori and Lokita",r:7.1,fests:[{f:"cannes",a:"70th Anniversary Prize"}]},
+    {y:2025,t:"Young Mother's Home",r:6.5,fests:[{f:"cannes"}]}
+]},
+{name:"Aki Kaurismäki", nat:"🇫🇮 Finlandiya", films:[
+    {y:2002,t:"The Man Without a Past",r:7.8,fests:[{f:"cannes",a:"Grand Prix + Best Actress"}]},
+    {y:2006,t:"Lights in the Dusk",r:7.4,fests:[{f:"cannes"}]},
+    {y:2011,t:"Le Havre",r:7.5,fests:[{f:"cannes"}]},
+    {y:2017,t:"The Other Side of Hope",r:7.5,fests:[{f:"cannes",a:"Best Director"}]},
+    {y:2023,t:"Fallen Leaves",r:7.5,fests:[{f:"cannes",a:"Jury Prize"}]}
+]},
+{name:"Nuri Bilge Ceylan", nat:"🇹🇷 Türkiye", films:[
+    {y:2003,t:"Uzak",r:7.9,fests:[{f:"cannes",a:"Grand Prix + Best Actor"}]},
+    {y:2006,t:"Climates",r:7.5,fests:[{f:"cannes",a:"FIPRESCI Prize"}]},
+    {y:2008,t:"Three Monkeys",r:7.3,fests:[{f:"cannes",a:"Best Director"}]},
+    {y:2011,t:"Once Upon a Time in Anatolia",r:8,fests:[{f:"cannes",a:"Grand Prix"}]},
+    {y:2014,t:"Winter Sleep",r:8,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2023,t:"About Dry Grasses",r:8,fests:[{f:"cannes",a:"Best Actress"}]}
+]},
+{name:"Hirokazu Kore-eda", nat:"🇯🇵 Japonya", films:[
+    {y:2004,t:"Nobody Knows",r:8,fests:[{f:"cannes",a:"Best Actor"}]},
+    {y:2013,t:"Like Father, Like Son",r:7.8,fests:[{f:"cannes",a:"Jury Prize"}]},
+    {y:2015,t:"Our Little Sister",r:7.6,fests:[{f:"cannes"}]},
+    {y:2018,t:"Shoplifters",r:7.9,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2019,t:"The Truth",r:6.7,fests:[{f:"cannes"}]},
+    {y:2022,t:"Broker",r:7.4,fests:[{f:"cannes",a:"Best Actor"}]},
+    {y:2023,t:"Monster",r:7.7,fests:[{f:"cannes",a:"Best Screenplay"}]},
+    {y:2026,t:"Sheep in the Box",fests:[{f:"cannes"}]}
+]},
+{name:"Apichatpong W.", nat:"🇹🇭 Tayland", films:[
+    {y:2004,t:"Tropical Malady",r:7.2,fests:[{f:"cannes",a:"Jury Prize"}]},
+    {y:2010,t:"Uncle Boonmee",r:7,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2021,t:"Memoria",r:6.7,fests:[{f:"cannes",a:"Jury Prize"}]}
+]},
+{name:"Paolo Sorrentino", nat:"🇮🇹 İtalya", films:[
+    {y:2004,t:"The Consequences of Love",r:7.5,fests:[{f:"cannes"}]},
+    {y:2008,t:"Il Divo",r:7.4,fests:[{f:"cannes",a:"Jury Prize"}]},
+    {y:2015,t:"Youth",r:7.3,fests:[{f:"cannes"}]},
+    {y:2024,t:"Parthenope",r:6.8,fests:[{f:"venice"}]},
+    {y:2025,t:"La Grazia",r:7,fests:[{f:"venice",a:"Best Actor"}]}
+]},
+{name:"Gus Van Sant", nat:"🇺🇸 ABD", films:[
+    {y:2003,t:"Elephant",r:7.1,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2007,t:"Paranoid Park",r:7,fests:[{f:"cannes"}]},
+    {y:2008,t:"Milk",r:7.5,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2015,t:"Sea of Trees",r:6.3,fests:[{f:"cannes"}]}
+]},
+{name:"Park Chan-wook", nat:"🇰🇷 G.Kore", films:[
+    {y:2004,t:"Oldboy",r:8.4,fests:[{f:"cannes",a:"Grand Prix"}]},
+    {y:2009,t:"Thirst",r:7.3,fests:[{f:"cannes",a:"Jury Prize"}]},
+    {y:2022,t:"Decision to Leave",r:7.4,fests:[{f:"cannes",a:"Best Director"}]},
+    {y:2025,t:"No Other Choice",r:7.5,fests:[{f:"toronto",a:"Int'l People's Choice",main:1}]}
+]},
+{name:"Wong Kar-wai", nat:"🇭🇰 HK/Çin", films:[
+    {y:2004,t:"2046",r:7.9,fests:[{f:"cannes"}]}
+]},
+{name:"Jia Zhangke", nat:"🇨🇳 Çin", films:[
+    {y:2006,t:"Still Life",r:7.5,fests:[{f:"venice",a:"Golden Lion",main:1}]},
+    {y:2013,t:"A Touch of Sin",r:7.5,fests:[{f:"cannes",a:"Best Screenplay"}]},
+    {y:2018,t:"Ash Is Purest White",r:7.5,fests:[{f:"cannes"}]},
+    {y:2024,t:"Caught by the Tides",r:6.8,fests:[{f:"cannes"}]}
+]},
+{name:"Cristian Mungiu", nat:"🇷🇴 Romanya", films:[
+    {y:2007,t:"4 Months, 3 Weeks, 2 Days",r:7.9,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2012,t:"Beyond the Hills",r:7.4,fests:[{f:"cannes",a:"Best Screenplay + Best Actress"}]},
+    {y:2016,t:"Graduation",r:7.4,fests:[{f:"cannes",a:"Best Director"}]},
+    {y:2022,t:"R.M.N.",r:7,fests:[{f:"cannes"}]},
+    {y:2026,t:"Fjord",fests:[{f:"cannes"}]}
+]},
+{name:"Jacques Audiard", nat:"🇫🇷 Fransa", films:[
+    {y:2009,t:"A Prophet",r:7.9,fests:[{f:"cannes",a:"Grand Prix"}]},
+    {y:2015,t:"Dheepan",r:7,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2024,t:"Emilia Pérez",r:6.8,fests:[{f:"cannes",a:"Jury Prize + Best Actress"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Andrea Arnold", nat:"🇬🇧 İngiltere", films:[
+    {y:2009,t:"Fish Tank",r:7.5,fests:[{f:"cannes",a:"Jury Prize"}]},
+    {y:2016,t:"American Honey",r:7.1,fests:[{f:"cannes",a:"Jury Prize"}]},
+    {y:2024,t:"Bird",r:6.8,fests:[{f:"cannes",a:"Jury Prize"}]}
+]},
+{name:"Abdellatif Kechiche", nat:"🇫🇷/🇹🇳 Fransa", films:[
+    {y:2007,t:"The Secret of the Grain",r:7.5,fests:[{f:"cannes"}]},
+    {y:2010,t:"Black Venus",r:6.5,fests:[{f:"cannes"}]},
+    {y:2013,t:"Blue Is the Warmest Color",r:7.7,fests:[{f:"cannes",a:"Palme d'Or",main:1}]}
+]},
+{name:"Terrence Malick", nat:"🇺🇸 ABD", films:[
+    {y:2011,t:"The Tree of Life",r:6.8,fests:[{f:"cannes",a:"Palme d'Or",main:1},{f:"oscar",a:"Best Picture nom."}]},
+    {y:2019,t:"A Hidden Life",r:7.3,fests:[{f:"cannes"}]}
+]},
+{name:"Asghar Farhadi", nat:"🇮🇷 İran", films:[
+    {y:2011,t:"A Separation",r:8.3,fests:[{f:"berlin",a:"Golden Bear",main:1},{f:"oscar",a:"Best Foreign Film",main:1}]},
+    {y:2013,t:"The Past",r:7.8,fests:[{f:"cannes",a:"Best Actress"}]},
+    {y:2016,t:"The Salesman",r:7.8,fests:[{f:"cannes",a:"Best Screenplay + Best Actor"},{f:"oscar",a:"Best Foreign Film",main:1}]},
+    {y:2018,t:"Everybody Knows",r:7.1,fests:[{f:"cannes"}]},
+    {y:2021,t:"A Hero",r:7.2,fests:[{f:"cannes",a:"Grand Prix"}]},
+    {y:2026,t:"Parallel Tales",fests:[{f:"cannes"}]}
+]},
+{name:"Xavier Dolan", nat:"🇨🇦 Kanada", films:[
+    {y:2009,t:"I Killed My Mother",r:7.6,fests:[{f:"cannes"}]},
+    {y:2010,t:"Heartbeats",r:7,fests:[{f:"cannes"}]},
+    {y:2012,t:"Laurence Anyways",r:7.8,fests:[{f:"cannes",a:"Best Actress (UCR)"}]},
+    {y:2014,t:"Mommy",r:8,fests:[{f:"cannes",a:"Jury Prize"}]},
+    {y:2016,t:"It's Only the End of the World",r:7,fests:[{f:"cannes",a:"Grand Prix"}]}
+]},
+{name:"Andrey Zvyagintsev", nat:"🇷🇺 Rusya", films:[
+    {y:2011,t:"Elena",r:7.3,fests:[{f:"cannes",a:"Special Jury Prize (UCR)"}]},
+    {y:2014,t:"Leviathan",r:7.6,fests:[{f:"cannes",a:"Best Screenplay"},{f:"oscar",a:"Best Foreign Film nom."}]},
+    {y:2017,t:"Loveless",r:7.6,fests:[{f:"cannes",a:"Jury Prize"},{f:"oscar",a:"Best Foreign Film nom."}]},
+    {y:2026,t:"Minotaur",fests:[{f:"cannes"}]},
+    {y:2003,t:"The Return",r:8,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Yorgos Lanthimos", nat:"🇬🇷 Yunanistan", films:[
+    {y:2015,t:"The Lobster",r:7.1,fests:[{f:"cannes",a:"Jury Prize"}]},
+    {y:2018,t:"The Favourite",r:7.5,fests:[{f:"venice",a:"Grand Jury Prize"},{f:"oscar",a:"Best Picture nom."}]},
+    {y:2023,t:"Poor Things",r:8,fests:[{f:"venice",a:"Golden Lion",main:1},{f:"oscar",a:"Best Picture nom."}]},
+    {y:2024,t:"Kinds of Kindness",r:6.7,fests:[{f:"cannes"}]},
+    {y:2025,t:"Bugonia",r:6.9,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Todd Haynes", nat:"🇺🇸 ABD", films:[
+    {y:2015,t:"Carol",r:7.6,fests:[{f:"cannes"}]},
+    {y:2017,t:"Wonderstruck",r:6.8,fests:[{f:"cannes"}]}
+]},
+{name:"László Nemes", nat:"🇭🇺 Macaristan", films:[
+    {y:2015,t:"Son of Saul",r:7.4,fests:[{f:"cannes",a:"Grand Prix"},{f:"oscar",a:"Best Foreign Film",main:1}]},
+    {y:2018,t:"Sunset",r:6.6,fests:[{f:"cannes"}]},
+    {y:2026,t:"Moulin",fests:[{f:"cannes"}]}
+]},
+{name:"Stéphane Brizé", nat:"🇫🇷 Fransa", films:[
+    {y:2015,t:"The Measure of a Man",r:7.4,fests:[{f:"cannes",a:"Best Actor"}]},
+    {y:2018,t:"At War",r:7.1,fests:[{f:"cannes"}]},
+    {y:2021,t:"Another World",r:7,fests:[{f:"cannes"}]}
+]},
+{name:"Hou Hsiao-hsien", nat:"🇹🇼 Tayvan", films:[
+    {y:2015,t:"The Assassin",r:6.9,fests:[{f:"cannes",a:"Best Director"}]}
+]},
+{name:"Nanni Moretti", nat:"🇮🇹 İtalya", films:[
+    {y:2001,t:"The Son's Room",r:7.5,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2015,t:"Mia Madre",r:7.1,fests:[{f:"cannes"}]},
+    {y:2023,t:"Il Sol dell'avvenire",r:6.8,fests:[{f:"cannes"}]}
+]},
+{name:"Gaspar Noé", nat:"🇦🇷/🇫🇷 Fransa", films:[
+    {y:2015,t:"Love",r:5.9,fests:[{f:"cannes"}]},
+    {y:2018,t:"Climax",r:7,fests:[{f:"cannes"}]}
+]},
+{name:"Ruben Östlund", nat:"🇸🇪 İsveç", films:[
+    {y:2017,t:"The Square",r:7.2,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2022,t:"Triangle of Sadness",r:7.4,fests:[{f:"cannes",a:"Palme d'Or",main:1},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Robin Campillo", nat:"🇫🇷 Fransa", films:[
+    {y:2017,t:"BPM (120 BPM)",r:7.6,fests:[{f:"cannes",a:"Grand Prix"}]}
+]},
+{name:"Ryusuke Hamaguchi", nat:"🇯🇵 Japonya", films:[
+    {y:2018,t:"Asako I & II",r:6.7,fests:[{f:"cannes"}]},
+    {y:2021,t:"Drive My Car",r:7.9,fests:[{f:"cannes",a:"Best Screenplay"},{f:"oscar",a:"Best Int'l Film",main:1}]},
+    {y:2026,t:"All of a Sudden",fests:[{f:"cannes"}]}
+]},
+{name:"Paweł Pawlikowski", nat:"🇵🇱 Polonya", films:[
+    {y:2018,t:"Cold War",r:7.5,fests:[{f:"cannes",a:"Best Director"},{f:"oscar",a:"Best Foreign Film nom."}]},
+    {y:2026,t:"Fatherland",fests:[{f:"cannes"}]}
+]},
+{name:"Jafar Panahi", nat:"🇮🇷 İran", films:[
+    {y:2018,t:"3 Faces",r:7,fests:[{f:"cannes",a:"Best Screenplay"}]},
+    {y:2025,t:"It Was Just an Accident",r:7.5,fests:[{f:"cannes",a:"Palme d'Or",main:1}]}
+]},
+{name:"Pedro Almodóvar", nat:"🇪🇸 İspanya", films:[
+    {y:2006,t:"Volver",r:7.7,fests:[{f:"cannes",a:"Best Actress"}]},
+    {y:2019,t:"Pain and Glory",r:7.5,fests:[{f:"cannes",a:"Best Actor"}]},
+    {y:2024,t:"The Room Next Door",r:6.6,fests:[{f:"venice",a:"Golden Lion",main:1}]},
+    {y:2026,t:"Bitter Christmas",fests:[{f:"cannes"}]}
+]},
+{name:"Justine Triet", nat:"🇫🇷 Fransa", films:[
+    {y:2019,t:"Sibyl",r:6.6,fests:[{f:"cannes"}]},
+    {y:2023,t:"Anatomy of a Fall",r:7.8,fests:[{f:"cannes",a:"Palme d'Or",main:1},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Kleber M. Filho", nat:"🇧🇷 Brezilya", films:[
+    {y:2019,t:"Bacurau",r:7.5,fests:[{f:"cannes",a:"Jury Prize"}]},
+    {y:2025,t:"The Secret Agent",r:7,fests:[{f:"cannes",a:"Best Director"},{f:"oscar",a:"Best Int'l Film nom."}]}
+]},
+{name:"Nadav Lapid", nat:"🇮🇱 İsrail", films:[
+    {y:2019,t:"Synonyms",r:7.2,fests:[{f:"berlin",a:"Golden Bear",main:1}]},
+    {y:2021,t:"Ahed's Knee",r:6.8,fests:[{f:"cannes",a:"Jury Prize"}]}
+]},
+{name:"Julia Ducournau", nat:"🇫🇷 Fransa", films:[
+    {y:2021,t:"Titane",r:6.7,fests:[{f:"cannes",a:"Palme d'Or",main:1}]},
+    {y:2025,t:"Alpha",r:6.2,fests:[{f:"cannes"}]}
+]},
+{name:"Leos Carax", nat:"🇫🇷 Fransa", films:[
+    {y:2021,t:"Annette",r:6.7,fests:[{f:"cannes",a:"Best Director"}]}
+]},
+{name:"Wes Anderson", nat:"🇺🇸 ABD", films:[
+    {y:2021,t:"The French Dispatch",r:7.2,fests:[{f:"cannes"}]},
+    {y:2025,t:"The Phoenician Scheme",r:6.8,fests:[{f:"cannes"}]},
+    {y:2014,t:"The Grand Budapest Hotel",r:8.1,fests:[{f:"oscar",a:"Best Picture nom."},{f:"berlin",a:"Silver Bear Grand Jury"}]}
+]},
+{name:"Joachim Trier", nat:"🇳🇴 Norveç", films:[
+    {y:2021,t:"The Worst Person in the World",r:7.8,fests:[{f:"cannes",a:"Best Actress"}]},
+    {y:2025,t:"Sentimental Value",r:7.1,fests:[{f:"cannes"},{f:"oscar",a:"Best Int'l Film nom."}]}
+]},
+{name:"Lukas Dhont", nat:"🇧🇪 Belçika", films:[
+    {y:2022,t:"Close",r:7.4,fests:[{f:"cannes",a:"Grand Prix"}]},
+    {y:2026,t:"Coward",fests:[{f:"cannes"}]}
+]},
+{name:"Kelly Reichardt", nat:"🇺🇸 ABD", films:[
+    {y:2022,t:"Showing Up",r:6.9,fests:[{f:"cannes"}]},
+    {y:2025,t:"The Mastermind",r:6.7,fests:[{f:"cannes"}]}
+]},
+{name:"Tarik Saleh", nat:"🇸🇪/🇪🇬 İsveç", films:[
+    {y:2022,t:"Boy from Heaven",r:7.1,fests:[{f:"cannes",a:"Best Screenplay"}]},
+    {y:2025,t:"Eagles of Republic",r:6.8,fests:[{f:"cannes"}]}
+]},
+{name:"Marie Kreutzer", nat:"🇦🇹 Avusturya", films:[
+    {y:2022,t:"Corsage",r:6.9,fests:[{f:"cannes",a:"Best Actress"}]},
+    {y:2026,t:"Gentle Monster",fests:[{f:"cannes"}]}
+]},
+{name:"Mario Martone", nat:"🇮🇹 İtalya", films:[
+    {y:2022,t:"Nostalgia",r:6.9,fests:[{f:"cannes"}]},
+    {y:2025,t:"Fuori",r:6.4,fests:[{f:"cannes"}]}
+]},
+{name:"Sergei Loznitsa", nat:"🇺🇦 Ukrayna", films:[
+    {y:2012,t:"In the Fog",r:7.2,fests:[{f:"cannes"}]},
+    {y:2017,t:"A Gentle Creature",r:6.9,fests:[{f:"cannes"}]},
+    {y:2025,t:"Two Prosecutors",r:6.9,fests:[{f:"cannes"}]}
+]},
+{name:"Wim Wenders", nat:"🇩🇪 Almanya", films:[
+    {y:2023,t:"Perfect Days",r:7.8,fests:[{f:"cannes",a:"Best Actor"},{f:"oscar",a:"Best Int'l Film nom."}]}
+]},
+{name:"Sean Baker", nat:"🇺🇸 ABD", films:[
+    {y:2021,t:"Red Rocket",r:7.1,fests:[{f:"cannes"}]},
+    {y:2024,t:"Anora",r:7.9,fests:[{f:"cannes",a:"Palme d'Or",main:1},{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture",main:1}]}
+]},
+{name:"Coralie Fargeat", nat:"🇫🇷 Fransa", films:[
+    {y:2024,t:"The Substance",r:7.3,fests:[{f:"cannes",a:"Best Screenplay"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Brady Corbet", nat:"🇺🇸 ABD", films:[
+    {y:2024,t:"The Brutalist",r:8,fests:[{f:"cannes",a:"Grand Prix"},{f:"venice",a:"Best Director"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Payal Kapadia", nat:"🇮🇳 Hindistan", films:[
+    {y:2024,t:"All We Imagine as Light",r:7.7,fests:[{f:"cannes",a:"Grand Prix"}]}
+]},
+{name:"Mohammad Rasoulof", nat:"🇮🇷 İran", films:[
+    {y:2024,t:"The Seed of the Sacred Fig",r:7.8,fests:[{f:"cannes",a:"Special Jury Prize"},{f:"oscar",a:"Best Int'l Film nom."}]}
+]},
+{name:"P.T. Anderson", nat:"🇺🇸 ABD", films:[
+    {y:2007,t:"There Will Be Blood",r:8.2,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2025,t:"One Battle After Another",r:7.8,fests:[{f:"cannes"},{f:"oscar",a:"Best Picture + Director",main:1}]}
+]},
+{name:"David Cronenberg", nat:"🇨🇦 Kanada", films:[
+    {y:2022,t:"Crimes of the Future",r:6.5,fests:[{f:"cannes"}]},
+    {y:2024,t:"The Shrouds",r:5.9,fests:[{f:"cannes"}]},
+    {y:2007,t:"Eastern Promises",r:7.6,fests:[{f:"toronto",a:"People's Choice",main:1}]}
+]},
+{name:"Ali Abbasi", nat:"🇮🇷/🇩🇰 Danimarka", films:[
+    {y:2024,t:"The Apprentice",r:7.1,fests:[{f:"cannes"}]}
+]},
+{name:"Michel Hazanavicius", nat:"🇫🇷 Fransa", films:[
+    {y:2011,t:"The Artist",r:7.9,fests:[{f:"oscar",a:"Best Picture + Director",main:1},{f:"toronto",a:"People's Choice",main:1}]},
+    {y:2024,t:"The Most Precious of Cargoes",r:7.2,fests:[{f:"cannes"}]}
+]},
+{name:"Ari Aster", nat:"🇺🇸 ABD", films:[
+    {y:2025,t:"Eddington",r:6.5,fests:[{f:"cannes"}]}
+]},
+{name:"Richard Linklater", nat:"🇺🇸 ABD", films:[
+    {y:2025,t:"Nouvelle Vague",r:7,fests:[{f:"cannes"}]},
+    {y:2014,t:"Boyhood",r:7.9,fests:[{f:"oscar",a:"Best Picture nom."},{f:"berlin",a:"Silver Bear Best Director"}]}
+]},
+{name:"Lynne Ramsay", nat:"🇬🇧 İngiltere", films:[
+    {y:2011,t:"We Need to Talk About Kevin",r:7.5,fests:[{f:"cannes",a:"FIPRESCI Prize"}]},
+    {y:2025,t:"Die My Love",r:7,fests:[{f:"cannes",a:"Best Actress"}]}
+]},
+{name:"Mascha Schilinski", nat:"🇩🇪 Almanya", films:[
+    {y:2025,t:"Sound of Falling",r:7,fests:[{f:"cannes",a:"Jury Prize"}]}
+]},
+{name:"James Gray", nat:"🇺🇸 ABD", films:[
+    {y:2000,t:"The Yards",r:6.7,fests:[{f:"cannes"}]},
+    {y:2007,t:"We Own the Night",r:7.1,fests:[{f:"cannes"}]},
+    {y:2013,t:"The Immigrant",r:7.1,fests:[{f:"cannes"}]},
+    {y:2022,t:"Armageddon Time",r:7.1,fests:[{f:"cannes"}]},
+    {y:2026,t:"Paper Tiger",fests:[{f:"cannes"}]}
+]},
+{name:"Na Hong-jin", nat:"🇰🇷 G.Kore", films:[
+    {y:2016,t:"The Wailing",r:7.9,fests:[{f:"cannes"}]},
+    {y:2026,t:"Hope",fests:[{f:"cannes"}]}
+]},
+{name:"Valeska Grisebach", nat:"🇩🇪 Almanya", films:[
+    {y:2017,t:"Western",r:6.9,fests:[{f:"cannes"}]},
+    {y:2026,t:"The Dreamed Adventure",fests:[{f:"cannes"}]}
+]},
+{name:"Rodrigo Sorogoyen", nat:"🇪🇸 İspanya", films:[
+    {y:2026,t:"The Beloved",fests:[{f:"cannes"}]}
+]},
+{name:"Arthur Harari", nat:"🇫🇷 Fransa", films:[
+    {y:2026,t:"The Unknown",fests:[{f:"cannes"}]}
+]},
+{name:"Ch. Bourgeois-Tacquet", nat:"🇫🇷 Fransa", films:[
+    {y:2021,t:"Anaïs in Love",r:6.8,fests:[{f:"cannes"}]},
+    {y:2026,t:"A Woman's Life",fests:[{f:"cannes"}]}
+]},
+{name:"Emmanuel Marre", nat:"🇧🇪 Belçika", films:[
+    {y:2026,t:"Notre Salut",fests:[{f:"cannes"}]}
+]},
+{name:"İlker Çatak", nat:"🇩🇪 Almanya", films:[
+    {y:2023,t:"The Teachers' Lounge",r:7.3,fests:[{f:"oscar",a:"Best Int'l Film nom."}]},
+    {y:2026,t:"Yellow Letters",r:7,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Sofia Coppola", nat:"🇺🇸 ABD", films:[
+    {y:2003,t:"Lost in Translation",r:7.7,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2010,t:"Somewhere",r:6.4,fests:[{f:"venice",a:"Golden Lion",main:1}]},
+    {y:2023,t:"Priscilla",r:7,fests:[{f:"venice",a:"Best Actress"}]}
+]},
+{name:"Ang Lee", nat:"🇹🇼/🇺🇸 ABD", films:[
+    {y:2000,t:"Crouching Tiger, Hidden Dragon",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2005,t:"Brokeback Mountain",r:7.7,fests:[{f:"venice",a:"Golden Lion",main:1},{f:"oscar",a:"Best Picture nom. (lost)"}]},
+    {y:2007,t:"Lust, Caution",r:7.5,fests:[{f:"venice",a:"Golden Lion",main:1}]},
+    {y:2012,t:"Life of Pi",r:7.9,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Chloé Zhao", nat:"🇨🇳/🇺🇸 ABD", films:[
+    {y:2020,t:"Nomadland",r:7.4,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"venice",a:"Golden Lion",main:1},{f:"oscar",a:"Best Picture + Director",main:1}]},
+    {y:2025,t:"Hamnet",r:7.8,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Darren Aronofsky", nat:"🇺🇸 ABD", films:[
+    {y:2008,t:"The Wrestler",r:7.9,fests:[{f:"venice",a:"Golden Lion",main:1}]},
+    {y:2010,t:"Black Swan",r:8,fests:[{f:"venice"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Gianfranco Rosi", nat:"🇮🇹 İtalya", films:[
+    {y:2013,t:"Sacro GRA",r:6.8,fests:[{f:"venice",a:"Golden Lion",main:1}]},
+    {y:2016,t:"Fire at Sea",r:7.5,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Mati Diop", nat:"🇫🇷/🇸🇳 Fransa", films:[
+    {y:2019,t:"Atlantics",r:6.7,fests:[{f:"cannes",a:"Grand Prix"}]},
+    {y:2024,t:"Dahomey",r:7.1,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Carla Simón", nat:"🇪🇸 İspanya", films:[
+    {y:2022,t:"Alcarràs",r:7.2,fests:[{f:"berlin",a:"Golden Bear",main:1}]},
+    {y:2025,t:"Romería",r:6.8,fests:[{f:"cannes"}]}
+]},
+{name:"Radu Jude", nat:"🇷🇴 Romanya", films:[
+    {y:2021,t:"Bad Luck Banging",r:6.8,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Kim Ki-duk", nat:"🇰🇷 G.Kore", films:[
+    {y:2012,t:"Pieta",r:7.2,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Tsai Ming-liang", nat:"🇲🇾 Tayvan", films:[
+    {y:2013,t:"Stray Dogs",r:6.9,fests:[{f:"venice",a:"Grand Jury Prize"}]}
+]},
+{name:"Roy Andersson", nat:"🇸🇪 İsveç", films:[
+    {y:2014,t:"A Pigeon Sat on a Branch",r:7.2,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Lorenzo Vigas", nat:"🇻🇪 Venezuela", films:[
+    {y:2015,t:"From Afar",r:7,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Lav Diaz", nat:"🇵🇭 Filipinler", films:[
+    {y:2016,t:"The Woman Who Left",r:7.1,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Guillermo del Toro", nat:"🇲🇽 Meksika", films:[
+    {y:2017,t:"The Shape of Water",r:7.3,fests:[{f:"venice",a:"Golden Lion",main:1},{f:"oscar",a:"Best Picture + Director",main:1}]},
+    {y:2025,t:"Frankenstein",r:7,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Audrey Diwan", nat:"🇫🇷 Fransa", films:[
+    {y:2021,t:"Happening",r:7.2,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Alfonso Cuarón", nat:"🇲🇽 Meksika", films:[
+    {y:2018,t:"Roma",r:7.7,fests:[{f:"venice",a:"Golden Lion",main:1},{f:"oscar",a:"Best Director",main:1}]},
+    {y:2013,t:"Gravity",r:7.7,fests:[{f:"oscar",a:"Best Director",main:1}]}
+]},
+{name:"Jim Jarmusch", nat:"🇺🇸 ABD", films:[
+    {y:2025,t:"Father Mother Sister Brother",r:6.8,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Dag Johan Haugerud", nat:"🇳🇴 Norveç", films:[
+    {y:2025,t:"Dreams (Sex Love)",r:7.2,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Danny Boyle", nat:"🇬🇧 İngiltere", films:[
+    {y:2008,t:"Slumdog Millionaire",r:8,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture + Director",main:1}]}
+]},
+{name:"Tom Hooper", nat:"🇬🇧 İngiltere", films:[
+    {y:2010,t:"The King's Speech",r:8,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture + Director",main:1}]},
+    {y:2012,t:"Les Misérables",r:7.6,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Steve McQueen", nat:"🇬🇧 İngiltere", films:[
+    {y:2013,t:"12 Years a Slave",r:8.1,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture",main:1}]}
+]},
+{name:"David O. Russell", nat:"🇺🇸 ABD", films:[
+    {y:2012,t:"Silver Linings Playbook",r:7.7,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture nom."}]},
+    {y:2010,t:"The Fighter",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2013,t:"American Hustle",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Alejandro G. Iñárritu", nat:"🇲🇽 Meksika", films:[
+    {y:2006,t:"Babel",r:7.5,fests:[{f:"cannes",a:"Best Director"},{f:"oscar",a:"Best Picture nom."}]},
+    {y:2014,t:"Birdman",r:7.7,fests:[{f:"oscar",a:"Best Picture + Director",main:1}]},
+    {y:2015,t:"The Revenant",r:8,fests:[{f:"oscar",a:"Best Director",main:1}]},
+    {y:2022,t:"Bardo",r:6.7,fests:[{f:"venice"}]}
+]},
+{name:"Damien Chazelle", nat:"🇺🇸 ABD", films:[
+    {y:2014,t:"Whiplash",r:8.5,fests:[{f:"sundance",a:"Grand Jury Prize + Audience Award",main:1}]},
+    {y:2016,t:"La La Land",r:8,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Director",main:1}]}
+]},
+{name:"Kathryn Bigelow", nat:"🇺🇸 ABD", films:[
+    {y:2009,t:"The Hurt Locker",r:7.5,fests:[{f:"oscar",a:"Best Picture + Director",main:1}]},
+    {y:2012,t:"Zero Dark Thirty",r:7.4,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Martin McDonagh", nat:"🇮🇪 İrlanda", films:[
+    {y:2017,t:"Three Billboards…",r:8.1,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture nom."}]},
+    {y:2022,t:"The Banshees of Inisherin",r:7.8,fests:[{f:"venice",a:"Best Screenplay"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Tom McCarthy", nat:"🇺🇸 ABD", films:[
+    {y:2015,t:"Spotlight",r:8.1,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture",main:1}]}
+]},
+{name:"Adam McKay", nat:"🇺🇸 ABD", films:[
+    {y:2015,t:"The Big Short",r:7.8,fests:[{f:"toronto",a:"People's Choice 2nd"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Lee Daniels", nat:"🇺🇸 ABD", films:[
+    {y:2009,t:"Precious",r:7.4,fests:[{f:"sundance",a:"Grand Jury + Audience Award",main:1},{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Damian Szifron", nat:"🇦🇷 Arjantin", films:[
+    {y:2014,t:"Wild Tales",r:8.1,fests:[{f:"cannes"},{f:"oscar",a:"Best Foreign Film nom."}]}
+]},
+{name:"Celine Song", nat:"🇰🇷/🇨🇦 Kanada", films:[
+    {y:2023,t:"Past Lives",r:7.9,fests:[{f:"sundance"},{f:"toronto",a:"People's Choice 2nd"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Bong Joon-ho", nat:"🇰🇷 G.Kore", films:[
+    {y:2019,t:"Parasite",r:8.5,fests:[{f:"cannes",a:"Palme d'Or",main:1},{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture + Director",main:1}]}
+]},
+{name:"Steven Soderbergh", nat:"🇺🇸 ABD", films:[
+    {y:2000,t:"Traffic",r:7.6,fests:[{f:"oscar",a:"Best Director",main:1}]},
+    {y:2000,t:"Erin Brockovich",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Ridley Scott", nat:"🇬🇧 İngiltere", films:[
+    {y:2000,t:"Gladiator",r:8.5,fests:[{f:"oscar",a:"Best Picture",main:1}]}
+]},
+{name:"Stephen Daldry", nat:"🇬🇧 İngiltere", films:[
+    {y:2000,t:"Billy Elliot",r:7.7,fests:[{f:"oscar",a:"Best Director nom."}]},
+    {y:2002,t:"The Hours",r:7.6,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2008,t:"The Reader",r:7.6,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Ron Howard", nat:"🇺🇸 ABD", films:[
+    {y:2001,t:"A Beautiful Mind",r:7.9,fests:[{f:"oscar",a:"Best Picture + Director",main:1}]}
+]},
+{name:"Robert Altman", nat:"🇺🇸 ABD", films:[
+    {y:2001,t:"Gosford Park",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Todd Field", nat:"🇺🇸 ABD", films:[
+    {y:2001,t:"In the Bedroom",r:7.7,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2022,t:"Tár",r:7.4,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Peter Jackson", nat:"🇳🇿 Yeni Zelanda", films:[
+    {y:2001,t:"The Fellowship of the Ring",r:8.9,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2002,t:"The Two Towers",r:8.8,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2003,t:"The Return of the King",r:9,fests:[{f:"oscar",a:"Best Picture + Director",main:1}]}
+]},
+{name:"Baz Luhrmann", nat:"🇦🇺 Avustralya", films:[
+    {y:2001,t:"Moulin Rouge!",r:7.6,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Rob Marshall", nat:"🇺🇸 ABD", films:[
+    {y:2002,t:"Chicago",r:7.2,fests:[{f:"oscar",a:"Best Picture",main:1}]}
+]},
+{name:"Martin Scorsese", nat:"🇺🇸 ABD", films:[
+    {y:2002,t:"Gangs of New York",r:7.5,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2006,t:"The Departed",r:8.5,fests:[{f:"oscar",a:"Best Picture + Director",main:1}]},
+    {y:2019,t:"The Irishman",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2023,t:"Killers of the Flower Moon",r:7.7,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Clint Eastwood", nat:"🇺🇸 ABD", films:[
+    {y:2003,t:"Mystic River",r:7.9,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2004,t:"Million Dollar Baby",r:8.1,fests:[{f:"oscar",a:"Best Picture + Director",main:1}]},
+    {y:2006,t:"Letters from Iwo Jima",r:7.9,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Peter Weir", nat:"🇦🇺 Avustralya", films:[
+    {y:2003,t:"Master and Commander",r:7.4,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Alexander Payne", nat:"🇺🇸 ABD", films:[
+    {y:2004,t:"Sideways",r:7.5,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2011,t:"The Descendants",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Taylor Hackford", nat:"🇺🇸 ABD", films:[
+    {y:2004,t:"Ray",r:7.7,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Marc Forster", nat:"🇩🇪 Almanya", films:[
+    {y:2004,t:"Finding Neverland",r:7.5,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Paul Haggis", nat:"🇨🇦 Kanada", films:[
+    {y:2005,t:"Crash",r:7.7,fests:[{f:"oscar",a:"Best Picture",main:1}]}
+]},
+{name:"Bennett Miller", nat:"🇺🇸 ABD", films:[
+    {y:2005,t:"Capote",r:7.4,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"George Clooney", nat:"🇺🇸 ABD", films:[
+    {y:2005,t:"Good Night, and Good Luck.",r:7.6,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Steven Spielberg", nat:"🇺🇸 ABD", films:[
+    {y:2005,t:"Munich",r:7.5,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2021,t:"West Side Story",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2022,t:"The Fabelmans",r:7.7,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Stephen Frears", nat:"🇬🇧 İngiltere", films:[
+    {y:2006,t:"The Queen",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Jonathan Dayton & Valerie Faris", nat:"🇺🇸 ABD", films:[
+    {y:2006,t:"Little Miss Sunshine",r:7.9,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Coen Brothers", nat:"🇺🇸 ABD", films:[
+    {y:2007,t:"No Country for Old Men",r:8.2,fests:[{f:"cannes"},{f:"oscar",a:"Best Picture + Director",main:1}]}
+]},
+{name:"Joe Wright", nat:"🇬🇧 İngiltere", films:[
+    {y:2007,t:"Atonement",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Jason Reitman", nat:"🇨🇦 Kanada", films:[
+    {y:2007,t:"Juno",r:7.5,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2009,t:"Up in the Air",r:7.4,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Tony Gilroy", nat:"🇺🇸 ABD", films:[
+    {y:2007,t:"Michael Clayton",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"David Fincher", nat:"🇺🇸 ABD", films:[
+    {y:2008,t:"The Curious Case of Benjamin Button",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2010,t:"The Social Network",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"James Cameron", nat:"🇨🇦 Kanada", films:[
+    {y:2009,t:"Avatar",r:7.9,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Quentin Tarantino", nat:"🇺🇸 ABD", films:[
+    {y:2009,t:"Inglourious Basterds",r:8.3,fests:[{f:"cannes",a:"Best Screenplay"},{f:"oscar",a:"Best Picture nom."}]},
+    {y:2012,t:"Django Unchained",r:8.4,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2019,t:"Once Upon a Time in Hollywood",r:7.6,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Neill Blomkamp", nat:"🇿🇦 G.Afrika", films:[
+    {y:2009,t:"District 9",r:7.9,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Lone Scherfig", nat:"🇩🇰 Danimarka", films:[
+    {y:2009,t:"An Education",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Ethan & Joel Coen", nat:"🇺🇸 ABD", films:[
+    {y:2009,t:"A Serious Man",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Christopher Nolan", nat:"🇬🇧 İngiltere", films:[
+    {y:2010,t:"Inception",r:8.8,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2023,t:"Oppenheimer",r:8.3,fests:[{f:"oscar",a:"Best Picture + Director",main:1}]}
+]},
+{name:"Lisa Cholodenko", nat:"🇺🇸 ABD", films:[
+    {y:2010,t:"The Kids Are All Right",r:7,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Debra Granik", nat:"🇺🇸 ABD", films:[
+    {y:2010,t:"Winter's Bone",r:7.2,fests:[{f:"sundance",a:"Grand Jury Prize",main:1},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Woody Allen", nat:"🇺🇸 ABD", films:[
+    {y:2011,t:"Midnight in Paris",r:7.7,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Ben Affleck", nat:"🇺🇸 ABD", films:[
+    {y:2012,t:"Argo",r:7.7,fests:[{f:"oscar",a:"Best Picture",main:1}]}
+]},
+{name:"Morten Tyldum", nat:"🇳🇴 Norveç", films:[
+    {y:2014,t:"The Imitation Game",r:8,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"James Marsh", nat:"🇬🇧 İngiltere", films:[
+    {y:2014,t:"The Theory of Everything",r:7.7,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"John Crowley", nat:"🇮🇪 İrlanda", films:[
+    {y:2015,t:"Brooklyn",r:7.4,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"George Miller", nat:"🇦🇺 Avustralya", films:[
+    {y:2015,t:"Mad Max: Fury Road",r:8.1,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Barry Jenkins", nat:"🇺🇸 ABD", films:[
+    {y:2016,t:"Moonlight",r:7.4,fests:[{f:"toronto",a:"People's Choice 2nd"},{f:"oscar",a:"Best Picture",main:1}]},
+    {y:2018,t:"If Beale Street Could Talk",r:7.3,fests:[{f:"toronto",a:"People's Choice 2nd"}]}
+]},
+{name:"Mel Gibson", nat:"🇦🇺 Avustralya", films:[
+    {y:2016,t:"Hacksaw Ridge",r:8.2,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Kenneth Lonergan", nat:"🇺🇸 ABD", films:[
+    {y:2016,t:"Manchester by the Sea",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Denis Villeneuve", nat:"🇨🇦 Kanada", films:[
+    {y:2016,t:"Arrival",r:7.9,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2024,t:"Dune: Part Two",r:8.5,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Theodore Melfi", nat:"🇺🇸 ABD", films:[
+    {y:2016,t:"Hidden Figures",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Garth Davis", nat:"🇦🇺 Avustralya", films:[
+    {y:2016,t:"Lion",r:8,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Greta Gerwig", nat:"🇺🇸 ABD", films:[
+    {y:2017,t:"Lady Bird",r:7.4,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2019,t:"Little Women",r:7.9,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2023,t:"Barbie",r:6.9,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Jordan Peele", nat:"🇺🇸 ABD", films:[
+    {y:2017,t:"Get Out",r:7.7,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Peter Farrelly", nat:"🇺🇸 ABD", films:[
+    {y:2018,t:"Green Book",r:8.2,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture",main:1}]}
+]},
+{name:"Spike Lee", nat:"🇺🇸 ABD", films:[
+    {y:2018,t:"BlacKkKlansman",r:7.5,fests:[{f:"cannes",a:"Grand Prix"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Ryan Coogler", nat:"🇺🇸 ABD", films:[
+    {y:2018,t:"Black Panther",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2025,t:"Sinners",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2013,t:"Fruitvale Station",r:7.5,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Sam Mendes", nat:"🇬🇧 İngiltere", films:[
+    {y:2019,t:"1917",r:8.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Todd Phillips", nat:"🇺🇸 ABD", films:[
+    {y:2019,t:"Joker",r:8.4,fests:[{f:"venice",a:"Golden Lion",main:1},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Taika Waititi", nat:"🇳🇿 Yeni Zelanda", films:[
+    {y:2019,t:"Jojo Rabbit",r:7.9,fests:[{f:"toronto",a:"People's Choice 2nd"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Noah Baumbach", nat:"🇺🇸 ABD", films:[
+    {y:2019,t:"Marriage Story",r:7.9,fests:[{f:"venice"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"James Mangold", nat:"🇺🇸 ABD", films:[
+    {y:2019,t:"Ford v Ferrari",r:8.1,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2024,t:"A Complete Unknown",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Aaron Sorkin", nat:"🇺🇸 ABD", films:[
+    {y:2020,t:"The Trial of the Chicago 7",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Darius Marder", nat:"🇺🇸 ABD", films:[
+    {y:2020,t:"Sound of Metal",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Emerald Fennell", nat:"🇬🇧 İngiltere", films:[
+    {y:2020,t:"Promising Young Woman",r:7.5,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Shaka King", nat:"🇺🇸 ABD", films:[
+    {y:2020,t:"Judas and the Black Messiah",r:7.5,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Florian Zeller", nat:"🇫🇷 Fransa", films:[
+    {y:2020,t:"The Father",r:8.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Jane Campion", nat:"🇳🇿 Yeni Zelanda", films:[
+    {y:2021,t:"The Power of the Dog",r:6.9,fests:[{f:"venice",a:"Silver Lion Best Director"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Kenneth Branagh", nat:"🇬🇧 İngiltere", films:[
+    {y:2021,t:"Belfast",r:7.3,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Sian Heder", nat:"🇺🇸 ABD", films:[
+    {y:2021,t:"CODA",r:7.3,fests:[{f:"sundance",a:"Grand Jury + Audience Award",main:1},{f:"oscar",a:"Best Picture",main:1}]}
+]},
+{name:"Daniel Kwan & Daniel Scheinert", nat:"🇺🇸 ABD", films:[
+    {y:2022,t:"Everything Everywhere All at Once",r:7.8,fests:[{f:"oscar",a:"Best Picture + Director",main:1}]}
+]},
+{name:"Sarah Polley", nat:"🇨🇦 Kanada", films:[
+    {y:2022,t:"Women Talking",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Edward Berger", nat:"🇩🇪 Almanya", films:[
+    {y:2022,t:"All Quiet on the Western Front",r:7.8,fests:[{f:"oscar",a:"Best Picture nom."}]},
+    {y:2024,t:"Conclave",r:7.5,fests:[{f:"toronto",a:"People's Choice 2nd"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Jonathan Glazer", nat:"🇬🇧 İngiltere", films:[
+    {y:2023,t:"The Zone of Interest",r:7.7,fests:[{f:"cannes",a:"Grand Prix"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Andrew Haigh", nat:"🇬🇧 İngiltere", films:[
+    {y:2011,t:"Weekend",r:7.7,fests:[{f:"sundance"}]},
+    {y:2023,t:"All of Us Strangers",r:7.5,fests:[{f:"oscar",a:"Best Picture nom."},{f:"sundance"}]}
+]},
+{name:"Walter Salles", nat:"🇧🇷 Brezilya", films:[
+    {y:2024,t:"I'm Still Here",r:7.6,fests:[{f:"venice",a:"Best Actress"},{f:"oscar",a:"Best Int'l Film",main:1}]}
+]},
+{name:"RaMell Ross", nat:"🇺🇸 ABD", films:[
+    {y:2024,t:"Nickel Boys",r:7.2,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Jon M. Chu", nat:"🇺🇸 ABD", films:[
+    {y:2024,t:"Wicked",r:7.3,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Joseph Kosinski", nat:"🇺🇸 ABD", films:[
+    {y:2025,t:"F1",r:7.2,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Josh Safdie", nat:"🇺🇸 ABD", films:[
+    {y:2025,t:"Marty Supreme",r:7.2,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Clint Bentley & Greg Kwedar", nat:"🇺🇸 ABD", films:[
+    {y:2025,t:"Train Dreams",r:7.1,fests:[{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Mira Nair", nat:"🇮🇳 Hindistan", films:[
+    {y:2001,t:"Monsoon Wedding",r:7.5,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Peter Mullan", nat:"🇬🇧 İskoçya", films:[
+    {y:2002,t:"The Magdalene Sisters",r:7.7,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Mike Leigh", nat:"🇬🇧 İngiltere", films:[
+    {y:2004,t:"Vera Drake",r:7.6,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Samuel Maoz", nat:"🇮🇱 İsrail", films:[
+    {y:2009,t:"Lebanon",r:7.3,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Alexander Sokurov", nat:"🇷🇺 Rusya", films:[
+    {y:2011,t:"Faust",r:7,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Laura Poitras", nat:"🇺🇸 ABD", films:[
+    {y:2022,t:"All the Beauty and the Bloodshed",r:8,fests:[{f:"venice",a:"Golden Lion",main:1}]}
+]},
+{name:"Benny Safdie", nat:"🇺🇸 ABD", films:[
+    {y:2025,t:"The Smashing Machine",r:7.5,fests:[{f:"venice",a:"Silver Lion Best Director"}]}
+]},
+{name:"Lee Chang-dong", nat:"🇰🇷 G.Kore", films:[
+    {y:2002,t:"Oasis",r:8.1,fests:[{f:"venice",a:"Silver Lion Best Director"}]},
+    {y:2018,t:"Burning",r:7.5,fests:[{f:"cannes",a:"FIPRESCI Prize"}]}
+]},
+{name:"Pablo Trapero", nat:"🇦🇷 Arjantin", films:[
+    {y:2015,t:"The Clan",r:7.4,fests:[{f:"venice",a:"Silver Lion Best Director"}]}
+]},
+{name:"Amat Escalante", nat:"🇲🇽 Meksika", films:[
+    {y:2016,t:"The Untamed",r:6.6,fests:[{f:"venice",a:"Silver Lion Best Director"}]}
+]},
+{name:"Xavier Legrand", nat:"🇫🇷 Fransa", films:[
+    {y:2017,t:"Custody",r:7.6,fests:[{f:"venice",a:"Silver Lion Best Director"}]}
+]},
+{name:"Ildikó Enyedi", nat:"🇭🇺 Macaristan", films:[
+    {y:2017,t:"On Body and Soul",r:7.7,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Patrice Chéreau", nat:"🇫🇷 Fransa", films:[
+    {y:2001,t:"Intimacy",r:6.6,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Paul Greengrass", nat:"🇬🇧 İngiltere", films:[
+    {y:2002,t:"Bloody Sunday",r:8.1,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Michael Winterbottom", nat:"🇬🇧 İngiltere", films:[
+    {y:2003,t:"In This World",r:7.5,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Fatih Akın", nat:"🇩🇪 Almanya", films:[
+    {y:2004,t:"Head-On",r:7.7,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Jasmila Žbanić", nat:"🇧🇦 B&H", films:[
+    {y:2006,t:"Grbavica",r:7.4,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Wang Quan'an", nat:"🇨🇳 Çin", films:[
+    {y:2007,t:"Tuya's Marriage",r:7.1,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"José Padilha", nat:"🇧🇷 Brezilya", films:[
+    {y:2008,t:"Elite Squad",r:7.7,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Claudia Llosa", nat:"🇵🇪 Peru", films:[
+    {y:2009,t:"The Milk of Sorrow",r:7.3,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Semih Kaplanoğlu", nat:"🇹🇷 Türkiye", films:[
+    {y:2010,t:"Honey",r:7.3,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Ulrich Köhler", nat:"🇩🇪 Almanya", films:[
+    {y:2012,t:"Sleeping Sickness",r:6.7,fests:[{f:"berlin",a:"Silver Bear Best Director"}]}
+]},
+{name:"Calin Peter Netzer", nat:"🇷🇴 Romanya", films:[
+    {y:2013,t:"Child's Pose",r:7.3,fests:[{f:"berlin",a:"Golden Bear",main:1}]}
+]},
+{name:"Małgorzata Szumowska", nat:"🇵🇱 Polonya", films:[
+    {y:2015,t:"Body/Ciało",r:6.8,fests:[{f:"berlin",a:"Silver Bear Best Director"}]}
+]},
+{name:"Danis Tanović", nat:"🇧🇦 B&H", films:[
+    {y:2013,t:"An Episode in the Life of an Iron Picker",r:7,fests:[{f:"berlin",a:"Silver Bear Grand Jury + Best Actor"}]}
+]},
+{name:"Hong Sang-soo", nat:"🇰🇷 G.Kore", films:[
+    {y:2020,t:"The Woman Who Ran",r:7,fests:[{f:"berlin",a:"Silver Bear Best Director"}]},
+    {y:2021,t:"Introduction",r:6.8,fests:[{f:"berlin",a:"Silver Bear Best Screenplay"}]},
+    {y:2022,t:"The Novelist's Film",r:7,fests:[{f:"berlin",a:"Silver Bear Grand Jury"}]}
+]},
+{name:"Maria Speth", nat:"🇩🇪 Almanya", films:[
+    {y:2023,t:"Herr Bachmann und seine Klasse",r:8,fests:[{f:"berlin",a:"Silver Bear Grand Jury"}]}
+]},
+{name:"Philippe Garrel", nat:"🇫🇷 Fransa", films:[
+    {y:2005,t:"Regular Lovers",r:7.3,fests:[{f:"venice",a:"Silver Lion Best Director"}]}
+]},
+{name:"Jean-Pierre Jeunet", nat:"🇫🇷 Fransa", films:[
+    {y:2001,t:"Amélie",r:8.3,fests:[{f:"toronto",a:"People's Choice",main:1}]}
+]},
+{name:"Niki Caro", nat:"🇳🇿 Yeni Zelanda", films:[
+    {y:2002,t:"Whale Rider",r:7.5,fests:[{f:"toronto",a:"People's Choice",main:1}]}
+]},
+{name:"Takeshi Kitano", nat:"🇯🇵 Japonya", films:[
+    {y:2003,t:"Zatoichi",r:7.5,fests:[{f:"toronto",a:"People's Choice",main:1},{f:"venice",a:"Silver Lion Best Director"}]}
+]},
+{name:"Terry George", nat:"🇮🇪 İrlanda", films:[
+    {y:2004,t:"Hotel Rwanda",r:8.1,fests:[{f:"toronto",a:"People's Choice",main:1}]}
+]},
+{name:"Gavin Hood", nat:"🇿🇦 G.Afrika", films:[
+    {y:2005,t:"Tsotsi",r:7.2,fests:[{f:"toronto",a:"People's Choice",main:1}]}
+]},
+{name:"Alejandro G. Monteverde", nat:"🇲🇽 Meksika", films:[
+    {y:2006,t:"Bella",r:7.1,fests:[{f:"toronto",a:"People's Choice",main:1}]}
+]},
+{name:"Mike Flanagan", nat:"🇺🇸 ABD", films:[
+    {y:2024,t:"The Life of Chuck",r:7.5,fests:[{f:"toronto",a:"People's Choice",main:1}]}
+]},
+{name:"Emilio Estevez", nat:"🇺🇸 ABD", films:[
+    {y:2010,t:"The Way",r:7.6,fests:[{f:"toronto",a:"People's Choice",main:1}]}
+]},
+{name:"Benh Zeitlin", nat:"🇺🇸 ABD", films:[
+    {y:2012,t:"Beasts of the Southern Wild",r:7.2,fests:[{f:"sundance",a:"Grand Jury + Cinematography",main:1},{f:"cannes",a:"Un Certain Regard"},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Jean-Marc Vallée", nat:"🇨🇦 Kanada", films:[
+    {y:2013,t:"Dallas Buyers Club",r:8,fests:[{f:"toronto",a:"People's Choice 2nd"}]},
+    {y:2014,t:"Wild",r:7.1,fests:[{f:"toronto",a:"People's Choice 2nd"}]}
+]},
+{name:"Atom Egoyan", nat:"🇨🇦 Kanada", films:[
+    {y:2014,t:"The Captive",r:5.9,fests:[{f:"cannes"}]}
+]},
+{name:"Lenny Abrahamson", nat:"🇮🇪 İrlanda", films:[
+    {y:2015,t:"Room",r:8.1,fests:[{f:"toronto",a:"People's Choice 2nd"}]}
+]},
+{name:"Mélanie Laurent", nat:"🇫🇷 Fransa", films:[
+    {y:2022,t:"The Mad Women's Ball",r:7.2,fests:[{f:"toronto",a:"People's Choice"}]}
+]},
+{name:"Derek Cianfrance", nat:"🇺🇸 ABD", films:[
+    {y:2010,t:"Blue Valentine",r:7.4,fests:[{f:"sundance",a:"Audience Award",main:1}]}
+]},
+{name:"Sean Durkin", nat:"🇺🇸 ABD", films:[
+    {y:2011,t:"Martha Marcy May Marlene",r:7,fests:[{f:"sundance",a:"Directing Award"}]}
+]},
+{name:"Dee Rees", nat:"🇺🇸 ABD", films:[
+    {y:2011,t:"Pariah",r:7.3,fests:[{f:"sundance",a:"Cinematography Award"}]}
+]},
+{name:"Karyn Kusama", nat:"🇺🇸 ABD", films:[
+    {y:2000,t:"Girlfight",r:7.1,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Henry Bean", nat:"🇺🇸 ABD", films:[
+    {y:2001,t:"The Believer",r:7.2,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Rebecca Miller", nat:"🇺🇸 ABD", films:[
+    {y:2002,t:"Personal Velocity",r:6.9,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Shari Springer Berman & Robert Pulcini", nat:"🇺🇸 ABD", films:[
+    {y:2003,t:"American Splendor",r:7.5,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Shane Carruth", nat:"🇺🇸 ABD", films:[
+    {y:2004,t:"Primer",r:7,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Ira Sachs", nat:"🇺🇸 ABD", films:[
+    {y:2005,t:"Forty Shades of Blue",r:6.5,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]},
+    {y:2023,t:"Passages",r:6.6,fests:[{f:"cannes"}]},
+    {y:2026,t:"The Man I Love",fests:[{f:"cannes"}]}
+]},
+{name:"Richard Glatzer", nat:"🇺🇸 ABD", films:[
+    {y:2006,t:"Quinceañera",r:7.1,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Christopher Zalla", nat:"🇺🇸 ABD", films:[
+    {y:2007,t:"Padre Nuestro",r:6.8,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Courtney Hunt", nat:"🇺🇸 ABD", films:[
+    {y:2008,t:"Frozen River",r:7.3,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Drake Doremus", nat:"🇺🇸 ABD", films:[
+    {y:2011,t:"Like Crazy",r:6.8,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Alfonso Gomez-Rejon", nat:"🇺🇸 ABD", films:[
+    {y:2015,t:"Me and Earl and the Dying Girl",r:7.8,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Nate Parker", nat:"🇺🇸 ABD", films:[
+    {y:2016,t:"The Birth of a Nation",r:6.8,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Macon Blair", nat:"🇺🇸 ABD", films:[
+    {y:2017,t:"I Don't Feel at Home…",r:6.8,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Desiree Akhavan", nat:"🇺🇸 ABD", films:[
+    {y:2018,t:"The Miseducation of Cameron Post",r:6.8,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Chinonye Chukwu", nat:"🇺🇸 ABD", films:[
+    {y:2019,t:"Clemency",r:6.9,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Lee Isaac Chung", nat:"🇰🇷/🇺🇸 ABD", films:[
+    {y:2020,t:"Minari",r:7.5,fests:[{f:"sundance",a:"Grand Jury Prize",main:1},{f:"oscar",a:"Best Picture nom."}]}
+]},
+{name:"Nikyatu Jusu", nat:"🇺🇸 ABD", films:[
+    {y:2022,t:"Nanny",r:6.3,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"A.V. Rockwell", nat:"🇺🇸 ABD", films:[
+    {y:2023,t:"A Thousand and One",r:7.1,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Alessandra Lacorazza", nat:"🇺🇸 ABD", films:[
+    {y:2024,t:"In the Summers",r:7,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Hailey Gates", nat:"🇺🇸 ABD", films:[
+    {y:2025,t:"Atropia",r:6.8,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]},
+{name:"Beth de Araújo", nat:"🇧🇷/🇺🇸 ABD", films:[
+    {y:2026,t:"Josephine",r:7,fests:[{f:"sundance",a:"Grand Jury Prize",main:1}]}
+]}
+];
+
+// ── Deduplicate DIRS (same name) ──
+const dirMap = new Map();
+for(const d of DIRS){
+  if(!d.films.length) continue; // skip empty duplicates
+  if(dirMap.has(d.name)){
+    const existing = dirMap.get(d.name);
+    existing.films.push(...d.films);
+  } else {
+    dirMap.set(d.name, {name:d.name, nat:d.nat, films:[...d.films]});
+  }
+}
+const DIRS_CLEAN = Array.from(dirMap.values());
+
+const ALLYEARS=[];
+for(let y=2026;y>=2000;y--) ALLYEARS.push(y);
+
+/* ── State ── */
+let activeFests=new Set(['cannes','venice','berlin','sundance','toronto','oscar']);
+let fmode='all';
+
+/* ── Build year select ── */
+const selEl=document.getElementById('yr-sel');
+ALLYEARS.forEach(y=>{const o=document.createElement('option');o.value=y;o.textContent=y;selEl.appendChild(o);});
+
+/* ── Build festival tabs ── */
+const tabsEl=document.getElementById('fest-tabs');
+Object.entries(FESTS).forEach(([k,v])=>{
+  const t=document.createElement('div');
+  t.className='ftab';t.dataset.f=k;
+  t.innerHTML=`<svg viewBox="0 0 20 20" fill="${v.dark}">${ICONS[k].replace(/<svg[^>]*>/,'').replace('</svg>','')}</svg><span>${v.name}</span>`;
+  t.onclick=()=>{
+    if(activeFests.has(k)){if(activeFests.size>1){activeFests.delete(k);t.classList.add('off');}}
+    else{activeFests.add(k);t.classList.remove('off');}
+    render();
+  };
+  tabsEl.appendChild(t);
+});
+
+function setF(m,btn){fmode=m;document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('on'));btn.classList.add('on');render();}
+
+/* Get CSS color var for festival */
+const FEST_COLORS={
+  cannes:'#1a6bbf', venice:'#c0392b', berlin:'#2e9e4f',
+  sundance:'#d4680a', toronto:'#7b5ea7', oscar:'#b8860b'
+};
+const FEST_DARK={
+  cannes:'#0c447c', venice:'#7b1a10', berlin:'#155a28',
+  sundance:'#8a3c00', toronto:'#4a2d7a', oscar:'#6b5000'
+};
+const FEST_BG={
+  cannes:'#e6f1fb', venice:'#fdf0ee', berlin:'#e8f8ed',
+  sundance:'#fde3c0', toronto:'#f3eefe', oscar:'#fde87a'
+};
+
+function buildPill(filmEntry, activeFestsSet){
+  const activeFestList = filmEntry.fests.filter(fe => activeFestsSet.has(fe.f));
+  if(!activeFestList.length) return '';
+
+  const title = filmEntry.t;
+  const rating = filmEntry.r;
+  const year = filmEntry.y;
+  const shortTitle = title.length > 14 ? title.substring(0,13)+'…' : title;
+
+  const hasMain = activeFestList.some(fe => fe.main);
+  const hasAward = activeFestList.some(fe => fe.a && !fe.main);
+  const isMulti = activeFestList.length > 1;
+
+  // Border style — üç kademe
+  let borderStyle = '';
+  if(hasMain){
+    borderStyle = `border:3px solid #d4a017;box-shadow:0 0 0 1px #d4a01755`;
+  } else if(hasAward){
+    borderStyle = `border:2px solid #909090`;
+  } else {
+    borderStyle = `border:1px solid rgba(0,0,0,.12);opacity:0.78`;
+  }
+
+  // Top: name + rating — açık zemin
+  const topBand = `<div style="padding:3px 4px 2px;display:flex;flex-direction:column;align-items:center;gap:1px;background:#edeae2">
+    <span style="font-size:7.5px;font-weight:500;color:#1a1814;line-height:1.2;text-align:center;width:100%;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical">${shortTitle}</span>
+    ${rating ? `<span style="font-size:8px;font-weight:600;color:#5a4a20">★${rating.toFixed(1)}</span>` : ''}
+  </div>`;
+
+  // Bottom: festival segments side by side
+  const segments = activeFestList.map(fe => {
+    const icoHtml = fe.main
+      ? `<span style="color:${FEST_COLORS[fe.f]};display:flex;align-items:center;justify-content:center">${ICONS[fe.f].replace('<svg','<svg width="12" height="12"')}</span>`
+      : '';
+    return `<div style="flex:1;background:${FEST_BG[fe.f]};min-height:18px;display:flex;align-items:center;justify-content:center;border-left:${fe===activeFestList[0]?'none':'1px solid rgba(0,0,0,.06)'}">${icoHtml}</div>`;
+  }).join('');
+
+  const bottomRow = `<div style="display:flex;border-top:1px solid rgba(0,0,0,.07)">${segments}</div>`;
+
+  // Tooltip
+  const festLines = filmEntry.fests.map(fe => {
+    if(!activeFestsSet.has(fe.f)) return '';
+    const awardLine = fe.a ? `<div class="tf-award">🏆 ${fe.a}</div>` : `<div class="tf-sel">Seçki</div>`;
+    return `<div class="tf"><span class="tf-name">${FESTS[fe.f].name}</span>${awardLine}</div>`;
+  }).filter(Boolean).join('');
+
+  return `<div class="pill ${hasMain?'has-main':'no-award'}" style="${borderStyle}">
+    ${topBand}
+    ${bottomRow}
+    <div class="tip">
+      <div class="tt">${title}</div>
+      <div class="tv">${year}${rating?` · ★ ${rating.toFixed(1)}`:''}</div>
+      ${festLines}
+    </div>
+  </div>`;
+}
+
+function render(){
+  const q=document.getElementById('sq').value.toLowerCase().trim();
+  const selY=parseInt(document.getElementById('yr-sel').value)||null;
+
+  let dirs=DIRS_CLEAN.filter(d=>{
+    // must have at least one film in an active festival
+    const hasFest=d.films.some(f=>f.fests.some(fe=>activeFests.has(fe.f)));
+    if(!hasFest) return false;
+    if(selY){
+      const inYear=d.films.some(f=>f.y===selY && f.fests.some(fe=>activeFests.has(fe.f)));
+      if(!inYear) return false;
+    }
+    if(fmode==='main' && !d.films.some(f=>f.fests.some(fe=>fe.main && activeFests.has(fe.f)))) return false;
+    if(fmode==='high' && !d.films.some(f=>f.r && f.r>=8.0)) return false;
+    if(q && !d.name.toLowerCase().includes(q) && !d.films.some(f=>f.t.toLowerCase().includes(q))) return false;
+    return true;
+  });
+
+  // Sort: 3 kademe
+  // Ana ödül (main:1): ilk 1.0, aynı filmden ek her biri +0.4
+  // Diğer ödül (a var, main yok): ilk 0.5, ek +0.25
+  // Seçki (a yok): 0.2
+  const dirScore = d => {
+    let total = 0;
+    d.films.forEach(f => {
+      const active = f.fests.filter(fe => activeFests.has(fe.f));
+      const mains  = active.filter(fe => fe.main).length;
+      const others = active.filter(fe => !fe.main && fe.a).length;
+      const sels   = active.filter(fe => !fe.main && !fe.a).length;
+      if(mains  > 0) total += 1.0 + (mains  - 1) * 0.4;
+      if(others > 0) total += 0.5 + (others - 1) * 0.25;
+      total += sels * 0.2;
+    });
+    return total;
+  };
+  dirs.sort((a, b) => dirScore(b) - dirScore(a));
+
+  const usedSet=new Set();
+  dirs.forEach(d=>d.films.forEach(f=>{if(f.y>=2000 && f.fests.some(fe=>activeFests.has(fe.f)))usedSet.add(f.y);}));
+  const years=ALLYEARS.filter(y=>usedSet.has(y));
+
+  document.getElementById('stat').textContent=`${dirs.length} yönetmen · ${years.length} yıl`;
+
+  // Group films by dir+year
+  let html=`<table><thead><tr><th class="nth">Yönetmen</th>`;
+  years.forEach(y=>html+=`<th class="yth ${y===selY?'sel':'hf'}">${y}</th>`);
+  html+=`</tr></thead><tbody>`;
+
+  dirs.forEach(d=>{
+    const byYear={};
+    d.films.forEach(f=>{
+      if(!f.fests.some(fe=>activeFests.has(fe.f))) return;
+      if(!byYear[f.y]) byYear[f.y]=[];
+      byYear[f.y].push(f);
+    });
+
+    html+=`<tr><td class="ntd"><div class="di"><div class="dn">${d.name}</div><div class="dc">${d.nat}</div></div></td>`;
+    years.forEach(y=>{
+      html+=`<td class="cell${y===selY?' csel':''}">`;
+      const films=byYear[y]||[];
+      films.forEach(f=>{
+        html+=buildPill(f, activeFests);
+      });
+      html+=`</td>`;
+    });
+    html+=`</tr>`;
+  });
+
+  html+=`</tbody></table>`;
+  if(!dirs.length) html=`<div style="padding:48px;text-align:center;color:var(--muted);font-style:italic">Sonuç bulunamadı.</div>`;
+  // Üst scrollbar genişliğini güncelle
+  const table = document.querySelector('#gs-main table');
+  if(table) document.getElementById('gs-top-inner').style.width = table.offsetWidth + 'px';
+  document.getElementById('grid').innerHTML=html;
+  setTimeout(()=>{
+    const t = document.querySelector('#gs-main table');
+    if(t) document.getElementById('gs-top-inner').style.width = t.offsetWidth + 'px';
+  }, 0);
+}
+
+render();
+
+// Üst ve alt scrollbar senkronizasyonu
+const gsTop = document.getElementById('gs-top');
+const gsMain = document.getElementById('gs-main');
+gsTop.addEventListener('scroll', () => { gsMain.scrollLeft = gsTop.scrollLeft; });
+gsMain.addEventListener('scroll', () => { gsTop.scrollLeft = gsMain.scrollLeft; });
+</script>
+</body>
+</html>
