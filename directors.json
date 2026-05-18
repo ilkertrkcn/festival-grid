@@ -2237,6 +2237,18 @@
             "main": 1
           }
         ]
+      },
+      {
+        "y": 2000,
+        "t": "Magnolia",
+        "r": 8,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
       }
     ]
   },
@@ -9626,6 +9638,189 @@
         "fests": [
           {
             "f": "cannes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mark Dornford-May",
+    "nat": "🇬🇧/🇿🇦 G.Afrika",
+    "films": [
+      {
+        "y": 2005,
+        "t": "U-Carmen eKhayelitsha",
+        "r": 7,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Paolo & Vittorio Taviani",
+    "nat": "🇮🇹 İtalya",
+    "films": [
+      {
+        "y": 2012,
+        "t": "Caesar Must Die",
+        "r": 7.6,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Adina Pintilie",
+    "nat": "🇷🇴 Romanya",
+    "films": [
+      {
+        "y": 2018,
+        "t": "Touch Me Not",
+        "r": 5.4,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nicolas Philibert",
+    "nat": "🇫🇷 Fransa",
+    "films": [
+      {
+        "y": 2023,
+        "t": "On the Adamant",
+        "r": 7.4,
+        "fests": [
+          {
+            "f": "berlin",
+            "a": "Golden Bear",
+            "main": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Buddhadeb Dasgupta",
+    "nat": "🇮🇳 Hindistan",
+    "films": [
+      {
+        "y": 2000,
+        "t": "Uttara",
+        "r": 7.2,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Grand Jury Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lukas Moodysson",
+    "nat": "🇸🇪 İsveç",
+    "films": [
+      {
+        "y": 2002,
+        "t": "Lilya 4-ever",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Grand Jury Prize"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shirin Neshat",
+    "nat": "🇮🇷/🇺🇸 ABD",
+    "films": [
+      {
+        "y": 2009,
+        "t": "Women Without Men",
+        "r": 6.8,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Silver Lion Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alex de la Iglesia",
+    "nat": "🇪🇸 İspanya",
+    "films": [
+      {
+        "y": 2010,
+        "t": "The Last Circus",
+        "r": 7,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Best Screenplay + Best Director"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Zhang Yimou",
+    "nat": "🇨🇳 Çin",
+    "films": [
+      {
+        "y": 2002,
+        "t": "Hero",
+        "r": 7.9,
+        "fests": [
+          {
+            "f": "venice",
+            "a": "Technical Grand Prize"
+          }
+        ]
+      },
+      {
+        "y": 2006,
+        "t": "Curse of the Golden Flower",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "venice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cate Shortland",
+    "nat": "🇦🇺 Avustralya",
+    "films": [
+      {
+        "y": 2012,
+        "t": "Lore",
+        "r": 7.3,
+        "fests": [
+          {
+            "f": "venice"
           }
         ]
       }
